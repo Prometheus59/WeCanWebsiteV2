@@ -4,11 +4,9 @@ import './css/Navbar.css'
 import About from './About'
 import Contact from './Contact'
 
-
 export default class Navbar extends React.Component {
   render () {
     return (
-      <BrowserRouter>
         <div>
           <div className='menu'>
             <NavLink exact to='/'>Home</NavLink>
@@ -25,7 +23,6 @@ export default class Navbar extends React.Component {
             </Switch>
           </div>
         </div>
-      </BrowserRouter>
     )
   }
 }
