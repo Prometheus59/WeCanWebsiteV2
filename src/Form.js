@@ -5,11 +5,13 @@ export default class Form extends React.Component {
     super(props)
     this.state = {
       name: '',
-      email: ''
+      email: '',
+      selectedOption: 'option1'
     }
 
     this.handleChange = this.handleChange.bind(this)
     this.handleSubmit = this.handleSubmit.bind(this)
+    this.handleRadio = this.handleRadio.bind(this)
   }
 
   handleChange (event) {
@@ -18,8 +20,26 @@ export default class Form extends React.Component {
     this.setState({ [event.target.name]: event.target.value })
   }
 
+  getInitialState () {
+    return {
+      selectedOption: 'option1'
+    }
+  }
+
+  handleRadio (event) {
+    this.setState({
+      selectedOption: event.target.value
+    })
+  }
+
   handleSubmit (event) {
-    alert('Data submitted - Name is :'+ this.state.name + ' and email is: ' + this.state.email)
+    alert(
+      'Data submitted - Name is: ' +
+        this.state.name +
+        ' and email is: ' +
+        this.state.email
+    )
+    // TODO: Add email submission here
   }
 
   render () {
@@ -43,6 +63,34 @@ export default class Form extends React.Component {
             value={this.state.value}
             onChange={this.handleChange}
           />
+        </label>
+        <br /><br />
+        <label>
+          <input
+            type='radio'
+            value='option1'
+            checked={this.state.selectedOption === 'option1'}
+            onChange={this.handleRadio}
+          />
+          Option1
+        </label>
+        <label>
+          <input
+            type='radio'
+            value='option2'
+            checked={this.state.selectedOption === 'option2'}
+            onChange={this.handleRadio}
+          />
+          Option2
+        </label>
+        <label>
+          <input
+            type='radio'
+            value='option3'
+            checked={this.state.selectedOption === 'option3'}
+            onChange={this.handleRadio}
+          />
+          Option3
         </label>
         <br /><br />
         <input type='submit' value='Submit' />
