@@ -6,7 +6,8 @@ export default class Form extends React.Component {
     this.state = {
       name: '',
       email: '',
-      selectedOption: 'option1'
+      selectedOption: 'option1',
+      message: ''
     }
 
     this.handleChange = this.handleChange.bind(this)
@@ -34,10 +35,9 @@ export default class Form extends React.Component {
 
   handleSubmit (event) {
     alert(
-      'Data submitted - Name is: ' +
-        this.state.name +
-        ' and email is: ' +
-        this.state.email
+      'Name: ' + this.state.name + ', email: ' + this.state.email + 
+      ', selection: ' + this.state.selectedOption + ', message: ' + 
+      this.state.message
     )
     // TODO: Add email submission here
   }
@@ -91,6 +91,11 @@ export default class Form extends React.Component {
             onChange={this.handleRadio}
           />
           Option3
+        </label>
+        <br /><br />
+        <label>
+            Message:
+            <textarea name='message' value={this.state.message} onChange={this.handleChange} />
         </label>
         <br /><br />
         <input type='submit' value='Submit' />
