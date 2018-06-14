@@ -1,8 +1,9 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
 import './css/Header.css'
+import icon from './images/newblue.png'
 
-const logo = 'http://alumnigala.com/wp-content/uploads/2017/11/WeCan1.jpg'
+const logo = icon;
 
 export default class Header extends React.Component {
   render () {
