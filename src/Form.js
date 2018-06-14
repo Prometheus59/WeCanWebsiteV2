@@ -1,4 +1,5 @@
 import React from 'react'
+import './css/Contact.css'
 
 export default class Form extends React.Component {
   constructor (props) {
@@ -23,7 +24,7 @@ export default class Form extends React.Component {
 
   getInitialState () {
     return {
-      selectedOption: 'option1'
+      selectedOption: 'auto'
     }
   }
 
@@ -35,9 +36,17 @@ export default class Form extends React.Component {
 
   handleSubmit (event) {
     alert(
-      'Name: ' + this.state.name + ', email: ' + this.state.email + 
-      ', selection: ' + this.state.selectedOption + ', message: ' + 
-      this.state.message
+      'Name: ' +
+        this.state.name +
+        '\n' +
+        'Email: ' +
+        this.state.email +
+        '\n' +
+        'Selection: ' +
+        this.state.selectedOption +
+        '\n' +
+        'Message: ' +
+        this.state.message
     )
     // TODO: Add email submission here
   }
@@ -66,13 +75,15 @@ export default class Form extends React.Component {
         </label>
         <br /><br />
         <label>
+          Insurance Type:
+          <br />
           <input
             type='radio'
             value='option1'
             checked={this.state.selectedOption === 'option1'}
             onChange={this.handleRadio}
           />
-          Option1
+          Auto
         </label>
         <label>
           <input
@@ -81,7 +92,7 @@ export default class Form extends React.Component {
             checked={this.state.selectedOption === 'option2'}
             onChange={this.handleRadio}
           />
-          Option2
+          Home
         </label>
         <label>
           <input
@@ -90,12 +101,17 @@ export default class Form extends React.Component {
             checked={this.state.selectedOption === 'option3'}
             onChange={this.handleRadio}
           />
-          Option3
+          Other
         </label>
         <br /><br />
         <label>
-            Message:
-            <textarea name='message' value={this.state.message} onChange={this.handleChange} />
+          Message:
+          <br />
+          <textarea
+            name='message'
+            value={this.state.message}
+            onChange={this.handleChange}
+          />
         </label>
         <br /><br />
         <input type='submit' value='Submit' />
