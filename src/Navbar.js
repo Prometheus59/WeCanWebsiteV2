@@ -1,8 +1,9 @@
-import React from 'react'
-import { Route, NavLink, Switch } from 'react-router-dom'
-import './css/Navbar.css'
-import About from './About'
-import Contact from './Contact'
+import React from 'react';
+import { Route, NavLink, Switch } from 'react-router-dom';
+import './css/Navbar.css';
+import About from './About';
+import Contact from './Contact';
+import Services from './Services';
 
 export default class Navbar extends React.Component {
   render () {
@@ -17,7 +18,7 @@ export default class Navbar extends React.Component {
           <div className='content'>
             <Switch>
               <Route exact path='/' component={About} />
-              <Route path='/services' component={About} />
+              <Route path='/services' component={Services} />
               <Route path='/about' component={About} />
               <Route path='/contact' component={Contact} />
             </Switch>
