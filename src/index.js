@@ -1,11 +1,12 @@
-import React from 'react'
-import ReactDOM from 'react-dom'
-import { BrowserRouter } from 'react-router-dom'
-import './css/index.css'
-import 'typeface-roboto'
-import Header from './Header'
-import Navbar from './Navbar'
-import registerServiceWorker from './registerServiceWorker'
+import React from 'react';
+import ReactDOM from 'react-dom';
+import { BrowserRouter } from 'react-router-dom';
+import './css/index.css';
+import 'typeface-roboto';
+import Header from './Header';
+import Navbar from './Navbar';
+import registerServiceWorker from './registerServiceWorker';
+import TabMenu from './Tabs';
 
 require('typeface-roboto');
 
@@ -16,7 +17,7 @@ class App extends React.Component {
         <BrowserRouter>
           <div>
             <Header />
-            <Navbar />
+            <TabMenu />
           </div>
         </BrowserRouter>
       </div>
