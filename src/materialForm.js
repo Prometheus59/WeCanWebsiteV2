@@ -42,8 +42,9 @@ class TextFields extends React.Component {
   constructor (props) {
     super(props)
     this.state = {
-      name: 'Ryan',
-      message: 'Controlled',
+      name: 'No name provided',
+      email: 'No email provided',
+      message: 'No message provided',
       insuranceType: 'Auto'
     }
     this.handleChange = this.handleChange.bind(this)
@@ -82,6 +83,8 @@ class TextFields extends React.Component {
         autoComplete='off'
         onSubmit={this.handleSubmit}
       >
+
+      <div className='section1'>
         <TextField
           id='name'
           label='Name'
@@ -100,8 +103,9 @@ class TextFields extends React.Component {
           value={this.state.value}
           onChange={this.handleChange('email')}
         />
+        </div>
         <br />
-
+        <div className='section2'>
         <TextField
           id='select-insurance'
           select
@@ -123,8 +127,11 @@ class TextFields extends React.Component {
             </MenuItem>
           ))}
         </TextField>
+        </div>
 
+        <div className='section3'>
         <TextField
+          style = {{width: 300}}
           id='message'
           label='Message'
           placeholder='Please write your message here'
@@ -137,6 +144,7 @@ class TextFields extends React.Component {
         />
 
         <input type='submit' value='Submit' />
+        </div>
 
       </form>
     )
