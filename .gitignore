@@ -21,3 +21,4 @@ yarn-debug.log*
 yarn-error.log*
 src/logo.svg
 src/App.test.js
+.vscode/settings.json

@@ -2,6 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom';
 import './css/Header.css'
 import icon from './images/newblue.png'
+import Tab from '@material-ui/core/Tab'
 
 const logo = icon;
 
@@ -12,9 +13,7 @@ export default class Header extends React.Component {
         <img className='logo' src={logo} alt='WeCan Logo' />
         <div className='title'>WeCan Insurance</div>
         <button id='contact-btn'>
-          <Link to='/contact'>
-            Contact Us!
-          </Link>
+          <Tab label='Contact' value='2'/>
         </button>
       </div>
     )
