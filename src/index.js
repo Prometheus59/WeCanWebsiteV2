@@ -3,8 +3,6 @@ import ReactDOM from 'react-dom';
 import { BrowserRouter } from 'react-router-dom';
 import './css/index.css';
 import 'typeface-roboto';
-import Header from './Header';
-import Navbar from './Navbar';
 import registerServiceWorker from './registerServiceWorker';
 import TabMenu from './Tabs';
 
@@ -16,7 +14,6 @@ class App extends React.Component {
       <div>
         <BrowserRouter>
           <div>
-            <Header />
             <TabMenu />
           </div>
         </BrowserRouter>

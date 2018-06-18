@@ -2,10 +2,10 @@ import React from 'react'
 import AppBar from '@material-ui/core/AppBar'
 import Tabs from '@material-ui/core/Tabs'
 import Tab from '@material-ui/core/Tab'
-import Typography from '@material-ui/core/Typography'
 import About from './About'
 import Services from './Services'
 import Contact from './Contact'
+import Header from './Header';
 
 class TabMenu extends React.Component {
   state = {
@@ -20,7 +20,8 @@ class TabMenu extends React.Component {
     const { value } = this.state
 
     return (
-      <div className='frank'>
+      <div>
+        <Header />
         <AppBar position='static'>
           <Tabs value={value} onChange={this.handleChange}>
             <Tab label='About' />

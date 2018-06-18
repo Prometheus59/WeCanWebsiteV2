@@ -1,8 +1,7 @@
 import React from 'react'
-import { Link } from 'react-router-dom';
 import './css/Header.css'
 import icon from './images/newblue.png'
-import Tab from '@material-ui/core/Tab'
+import Button from '@material-ui/core/Button';
 
 const logo = icon;
 
@@ -12,10 +11,14 @@ export default class Header extends React.Component {
       <div className='Header'>
         <img className='logo' src={logo} alt='WeCan Logo' />
         <div className='title'>WeCan Insurance</div>
-        <button id='contact-btn'>
-          <Tab label='Contact' value='2'/>
-        </button>
+        <div className='btn'>
+        <Button variant="contained" color="primary" className="contact-btn">
+        Contact Us
+      </Button>
+      </div>
       </div>
     )
   }
 }
+
+// Need to use props to activate contact button.
