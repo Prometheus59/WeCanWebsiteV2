@@ -1,5 +1,4 @@
 import React from 'react'
-import Form from './Form'
 import BizInfo from './BizInfo'
 import Gmaps from './Gmaps'
 import TextFields from './materialForm';
