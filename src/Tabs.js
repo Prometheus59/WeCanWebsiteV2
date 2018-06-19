@@ -6,7 +6,7 @@ import About from './About'
 import Services from './Services'
 import Contact from './Contact'
 import Header from './Header'
-import { NavLink, BrowserRouter, Route, Switch } from 'react-router-dom'
+import { NavLink, BrowserRouter, Route, Switch } from 'react-router-dom';
 
 class TabMenu extends React.Component {
   state = {
