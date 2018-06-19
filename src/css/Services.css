@@ -4,3 +4,7 @@
     margin-right: auto;
     padding: 20px;
 }
+
+.slick-prev:before, .slick-next:before {
+    font-size: 40px !important;
+}

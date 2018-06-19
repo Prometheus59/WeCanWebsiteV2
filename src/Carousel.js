@@ -15,8 +15,9 @@ class SimpleSlider extends React.Component {
       autoplay: true,
       className: 'carouselSlides',
       centerMode: true,
-      centerPadding: '0px'
-
+      centerPadding: '20px',
+      fade: true,
+      pauseOnHover: true
     }
     return (
       <Slider {...settings}>
