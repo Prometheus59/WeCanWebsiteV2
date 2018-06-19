@@ -25,7 +25,7 @@
 .contact-btn {
     height: 5%;
     margin-top: 40px !important;
-    margin-left: auto !important;
+    margin-left: 800px !important; /* May need to change this */
     margin-right: 40px;
     padding: 10px;
     cursor: pointer;
