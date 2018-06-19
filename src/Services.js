@@ -1,5 +1,6 @@
 import React from 'react';
-
+import SimpleSlider from './Carousel';
+import './css/Services.css';
 
 
 export default class Services extends React.Component {
@@ -7,12 +8,8 @@ export default class Services extends React.Component {
         return (
             // Make this a carousel selector
              <div>
-                 <title>Services Available</title>
-                 <ul>
-                     <li>Auto</li>
-                     <li>Home</li>
-                     <li>Commercial</li>
-                 </ul>
+                 <h1>Services Available</h1>
+                 <SimpleSlider />
              </div>
         )
     }
