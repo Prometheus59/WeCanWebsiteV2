@@ -10,15 +10,16 @@ body {
 }
 
 form {
-    border: solid 5px royalblue;
+    border: solid 3px royalblue;
     margin-top: 25px;
     margin-left: auto;
     margin-right: auto;
     padding: 10px;
-    height: 70%;
+    width: 400px;
     overflow: auto;
     background-color: whitesmoke;
 }
+
 
  textarea {
     padding: 5px;
@@ -28,14 +29,18 @@ form {
     border: 1px royalblue solid;
 }
 
-input[type=text] {
-    padding: 5px;
-    width: 300px;
-    margin: 3px;
-    border: 1px royalblue solid;
+
+.section1 {
+    margin-right: 200px;
 }
 
+.section2 {
+    margin-right: 200px;
+}
 
+.section3 {
+    margin-right:0px;
+}
 
 .contact-info {
     font-size: 90%;
