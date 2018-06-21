@@ -24,15 +24,15 @@ const styles = theme => ({
   })
 })
 
-function PaperSheet (props) {
+function PaperSheetAlt (props) {
   const { classes } = props;
   return (
     <div>
-      <Paper className={classes.alignLeft} elevation={4}>
-        <Typography align='alignLeft' variant='headline' component='h3'>
+      <Paper className={classes.alignRight} elevation={4}>
+        <Typography align='alignRight' variant='headline' component='h3'>
           {props.title}
         </Typography>
-        <Typography align='alignLeft' component='p'>
+        <Typography align='alignRight' component='p'>
           {props.message}
         </Typography>
       </Paper>
@@ -40,8 +40,8 @@ function PaperSheet (props) {
   )
 }
 
-PaperSheet.propTypes = {
+PaperSheetAlt.propTypes = {
   classes: PropTypes.object.isRequired
 }
 
-export default withStyles(styles)(PaperSheet)
+export default withStyles(styles)(PaperSheetAlt)
