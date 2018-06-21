@@ -7,7 +7,7 @@ export default class Form extends React.Component {
     this.state = {
       name: '',
       email: '',
-      selectedOption: 'option1',
+      selectedOption: '',
       message: ''
     }
 
@@ -17,15 +17,7 @@ export default class Form extends React.Component {
   }
 
   handleChange (event) {
-    // check it out: we get the evt.target.name (which will be either "email" or "password")
-    // and use it to target the key on our `state` object with the same name, using bracket syntax
     this.setState({ [event.target.name]: event.target.value })
-  }
-
-  getInitialState () {
-    return {
-      selectedOption: 'auto'
-    }
   }
 
   handleRadio (event) {
@@ -48,7 +40,7 @@ export default class Form extends React.Component {
         'Message: ' +
         this.state.message
     )
-    // TODO: Add email submission here
+    // TODO: Replace above alert with an actual email submission here
   }
 
   render () {
