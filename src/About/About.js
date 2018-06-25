@@ -2,7 +2,6 @@ import React from 'react'
 import pagesrc from '../images/MainPage.jpg'
 import '../css/About.css'
 import PaperSheet from '../Common/Paper'
-import PaperSheetAlt from '../Common/PaperAlt'
 import SimpleMediaCard from '../Common/Card'
 import car from '../images/car.jpg'
 import house from '../images/house.jpg'
@@ -44,7 +43,7 @@ export default class About extends React.Component {
             title='Our Goal'
             message='Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur eius consequuntur adipisci aliquam, quae error exercitationem sunt illo explicabo voluptates!'
           />
-          <PaperSheetAlt
+          <PaperSheet
             title='What We Do'
             message='Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur eius consequuntur adipisci aliquam, quae error exercitationem sunt illo explicabo voluptates!'
           />

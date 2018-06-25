@@ -5,22 +5,13 @@ import Paper from '@material-ui/core/Paper'
 import Typography from '@material-ui/core/Typography'
 
 const styles = theme => ({
-  alignLeft: theme.mixins.gutters({
+  center: theme.mixins.gutters({
     paddingTop: 16,
     paddingBottom: 16,
     marginTop: theme.spacing.unit * 3,
     marginBottom: theme.spacing.unit * 3,
-    width: '20%',
-    marginLeft: '15%',
-  }),
-  alignRight: theme.mixins.gutters({
-    paddingTop: 16,
-    paddingBottom: 16,
-    marginTop: theme.spacing.unit * 3,
-    marginBottom: theme.spacing.unit * 3,
-    width: '20%',
-    marginLeft: 'auto',
-    marginRight: '15%'
+    maxWidth: 300,
+    marginRight: '10px'
   })
 })
 
@@ -28,7 +19,7 @@ function PaperSheet (props) {
   const { classes } = props;
   return (
     <div>
-      <Paper className={classes.alignLeft} elevation={4}>
+      <Paper className={classes.center} elevation={4}>
         <Typography align='left' variant='headline' component='h3'>
           {props.title}
         </Typography>
