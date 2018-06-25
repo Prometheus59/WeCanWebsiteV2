@@ -29,10 +29,10 @@ function PaperSheet (props) {
   return (
     <div>
       <Paper className={classes.alignLeft} elevation={4}>
-        <Typography align='alignLeft' variant='headline' component='h3'>
+        <Typography align='left' variant='headline' component='h3'>
           {props.title}
         </Typography>
-        <Typography align='alignLeft' component='p'>
+        <Typography align='left' component='p'>
           {props.message}
         </Typography>
       </Paper>

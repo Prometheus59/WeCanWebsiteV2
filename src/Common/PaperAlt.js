@@ -29,10 +29,10 @@ function PaperSheetAlt (props) {
   return (
     <div>
       <Paper className={classes.alignRight} elevation={4}>
-        <Typography align='alignRight' variant='headline' component='h3'>
+        <Typography align='right' variant='headline' component='h3'>
           {props.title}
         </Typography>
-        <Typography align='alignRight' component='p'>
+        <Typography align='right' component='p'>
           {props.message}
         </Typography>
       </Paper>
