@@ -1,11 +1,11 @@
-import React from 'react'
-import pagesrc from '../images/MainPage.jpg'
-import '../css/About.css'
-import PaperSheet from '../Common/Paper'
-import SimpleMediaCard from '../Common/Card'
-import car from '../images/car.jpg'
-import house from '../images/house.jpg'
-import comm from '../images/comm.jpg'
+import React from 'react';
+import pagesrc from '../images/MainPage.jpg';
+import '../css/About.css';
+import SimpleMediaCard from '../Common/Card';
+import car from '../images/car.jpg';
+import house from '../images/house.jpg';
+import comm from '../images/comm.jpg';
+import PaperSheets from './PaperSheets';
 
 function Page () {
   return <img src={pagesrc} alt='mainImage' />
@@ -37,21 +37,7 @@ export default class About extends React.Component {
             image={comm}
           />
         </div>
-
-        <div className='paper'>
-          <PaperSheet
-            title='Our Goal'
-            message='Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur eius consequuntur adipisci aliquam, quae error exercitationem sunt illo explicabo voluptates!'
-          />
-          <PaperSheet
-            title='What We Do'
-            message='Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur eius consequuntur adipisci aliquam, quae error exercitationem sunt illo explicabo voluptates!'
-          />
-          <PaperSheet
-            title='We Can Help'
-            message='Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur eius consequuntur adipisci aliquam, quae error exercitationem sunt illo explicabo voluptates!'
-          />
-        </div>
+        <PaperSheets />
       </div>
     )
   }
