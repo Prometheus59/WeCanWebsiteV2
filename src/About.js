@@ -3,7 +3,6 @@ import pagesrc from './images/MainPage.jpg'
 import './css/About.css'
 import PaperSheet from './Paper'
 import PaperSheetAlt from './PaperAlt';
-import { Paper } from '@material-ui/core';
 
 function Page () {
   return <img src={pagesrc} alt='mainImage' />
@@ -19,9 +18,9 @@ export default class About extends React.Component {
         </div>
         <br />
         <div className='paper'>
-          <PaperSheet title='Title' message='Message' />
-          <PaperSheetAlt title='Title 2' message='Message' />
-          <PaperSheet title='Title 3' message='Message' />
+          <PaperSheet title='Our Goal' message='Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur eius consequuntur adipisci aliquam, quae error exercitationem sunt illo explicabo voluptates!' />
+          <PaperSheetAlt title='What We Do' message='Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur eius consequuntur adipisci aliquam, quae error exercitationem sunt illo explicabo voluptates!' />
+          <PaperSheet title='We Can Help' message='Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur eius consequuntur adipisci aliquam, quae error exercitationem sunt illo explicabo voluptates!' />
         </div>
       </div>
     )

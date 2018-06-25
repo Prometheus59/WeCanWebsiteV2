@@ -21,5 +21,3 @@ export default class Header extends React.Component {
     )
   }
 }
-
-// Need to use props to activate contact button.
