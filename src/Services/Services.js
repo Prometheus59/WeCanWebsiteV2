@@ -1,6 +1,6 @@
 import React from 'react';
 import SimpleSlider from './Carousel';
-import './css/Services.css';
+import '../css/Services.css';
 
 
 export default class Services extends React.Component {

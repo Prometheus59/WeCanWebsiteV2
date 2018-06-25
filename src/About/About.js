@@ -1,8 +1,8 @@
 import React from 'react'
-import pagesrc from './images/MainPage.jpg'
-import './css/About.css'
-import PaperSheet from './Paper'
-import PaperSheetAlt from './PaperAlt';
+import pagesrc from '../images/MainPage.jpg'
+import '../css/About.css'
+import PaperSheet from '../Common/Paper'
+import PaperSheetAlt from '../Common/PaperAlt';
 
 function Page () {
   return <img src={pagesrc} alt='mainImage' />

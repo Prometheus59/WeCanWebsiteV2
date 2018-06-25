@@ -1,6 +1,6 @@
 import React from 'react'
-import './css/Header.css'
-import icon from './images/newblue.png'
+import '../css/Header.css'
+import icon from '../images/newblue.png'
 import Button from '@material-ui/core/Button';
 import { NavLink } from 'react-router-dom';
 
