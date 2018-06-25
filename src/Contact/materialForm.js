@@ -3,6 +3,7 @@ import PropTypes from 'prop-types'
 import { withStyles } from '@material-ui/core/styles'
 import MenuItem from '@material-ui/core/MenuItem'
 import TextField from '@material-ui/core/TextField'
+import SendButton from './Send'
 
 const styles = theme => ({
   container: {
@@ -84,66 +85,66 @@ class TextFields extends React.Component {
         onSubmit={this.handleSubmit}
       >
 
-      <div className='section1'>
-        <TextField
-          id='name'
-          label='Name'
-          placeholder='John Smith'
-          className={classes.textField}
-          margin='normal'
-          value={this.state.value}
-          onChange={this.handleChange('name')}
-        />
-        <TextField
-          id='email'
-          label='Email'
-          placeholder='example@gmail.com'
-          className={classes.textField}
-          margin='normal'
-          value={this.state.value}
-          onChange={this.handleChange('email')}
-        />
+        <div className='section1'>
+          <TextField
+            id='name'
+            label='Name'
+            placeholder='John Smith'
+            className={classes.textField}
+            margin='normal'
+            value={this.state.value}
+            onChange={this.handleChange('name')}
+          />
+          <TextField
+            id='email'
+            label='Email'
+            placeholder='example@gmail.com'
+            className={classes.textField}
+            margin='normal'
+            value={this.state.value}
+            onChange={this.handleChange('email')}
+          />
         </div>
         <br />
         <div className='section2'>
-        <TextField
-          id='select-insurance'
-          select
-          label='Insurance Type'
-          className={classes.textField}
-          value={this.state.insuranceType}
-          onChange={this.handleChange('insuranceType')}
-          SelectProps={{
-            MenuProps: {
-              className: classes.menu
-            }
-          }}
-          helperText='Please select your insurance type'
-          margin='normal'
-        >
-          {insuranceTypes.map(option => (
-            <MenuItem key={option.value} value={option.value}>
-              {option.label}
-            </MenuItem>
-          ))}
-        </TextField>
+          <TextField
+            id='select-insurance'
+            select
+            label='Insurance Type'
+            className={classes.textField}
+            value={this.state.insuranceType}
+            onChange={this.handleChange('insuranceType')}
+            SelectProps={{
+              MenuProps: {
+                className: classes.menu
+              }
+            }}
+            helperText='Please select your insurance type'
+            margin='normal'
+          >
+            {insuranceTypes.map(option => (
+              <MenuItem key={option.value} value={option.value}>
+                {option.label}
+              </MenuItem>
+            ))}
+          </TextField>
         </div>
 
         <div className='section3'>
-        <TextField
-          style = {{width: 300}}
-          id='message'
-          label='Message'
-          placeholder='Please write your message here'
-          multiline
-          value={this.state.value}
-          onChange={this.handleChange('message')}
-          rows='4'
-          className={classes.textField}
-          margin='normal'
-        />
+          <TextField
+            style={{ width: 300 }}
+            id='message'
+            label='Message'
+            placeholder='Please write your message here'
+            multiline
+            value={this.state.value}
+            onChange={this.handleChange('message')}
+            rows='4'
+            className={classes.textField}
+            margin='normal'
+          />
 
-        <input type='submit' value='Submit' />
+          <SendButton />
         </div>
 
       </form>

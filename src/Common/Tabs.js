@@ -28,7 +28,7 @@ class TabMenu extends React.Component {
             <Tabs value={value} onChange={this.handleChange}>
               <Tab label='About' component={NavLink} to='/about'/>
               <Tab label='Services' component={NavLink} to='/services'/>
-              <Tab label='Sound Insurance' disabled='true' component={NavLink} to='/soundInsurance' />
+              <Tab label='Sound Insurance' disabled component={NavLink} to='/soundInsurance' />
               <Tab label='Contact' component={NavLink} to='/contact'/>
             </Tabs>
           </AppBar>
