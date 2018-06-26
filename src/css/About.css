@@ -3,6 +3,7 @@
     text-align: center;
     font-family: 'Merriweather', serif;
     overflow: hidden;
+    z-index: -5;
 }
 
 #aboutUs img {

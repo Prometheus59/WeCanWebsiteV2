@@ -2,7 +2,7 @@
     position: relative;
     top: 20%;
     background-color: slategrey;
-    overflow: hidden;
+    overflow: visible;
 }
 
 .menu a {
@@ -23,4 +23,12 @@
 .active {
     background-color: rgb(24, 70, 209);
     color: white;
+}
+
+#navBar {
+    display: block;
+    position: -webkit-sticky !important;
+    position: sticky !important;
+    z-index: 1000 !important;
+    top: 136 !important;
 }
