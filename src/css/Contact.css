@@ -9,16 +9,31 @@ body {
     flex-direction: row;
 }
 
+
+/* Google reCaptcha Button */
+.g-recaptcha {
+    margin-left: 0px;
+    margin-bottom: 30px;
+    transform:translate(-47px, -10px) scale(0.8, 0.8);
+}
+
+@media screen and (max-height: 575px){ #rc-imageselect, .g-recaptcha {transform:scale(0.77);-webkit-transform:scale(0.77);transform-origin:0 0;-webkit-transform-origin:0 0;} }
+
 form {
     border: solid 3px royalblue;
     margin-top: 25px;
-
     padding: 10px;
-    width: 400px;
-    overflow: auto;
+    max-width: 380px;
+    height:90%;
+    overflow: hidden;
     background-color: whitesmoke;
 }
 
+
+/* Message Box */
+.MuiFormControl-root-95 {
+    margin-top: 0px !important;
+}
 
  textarea {
     padding: 5px;
@@ -35,6 +50,7 @@ form {
 
 .section2 {
     margin-right: 200px;
+    margin-top: 15px;
 }
 
 .section3 {

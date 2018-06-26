@@ -52,6 +52,7 @@ class TextFields extends React.Component {
     this.handleSubmit = this.handleSubmit.bind(this)
   }
 
+/*This handler class handles all changes to state */
   handleChange = name => event => {
     this.setState({
       [name]: event.target.value
@@ -84,7 +85,7 @@ class TextFields extends React.Component {
         autoComplete='off'
         onSubmit={this.handleSubmit}
       >
-
+        {/* Name and Email */}
         <div className='section1'>
           <TextField
             id='name'
@@ -105,7 +106,7 @@ class TextFields extends React.Component {
             onChange={this.handleChange('email')}
           />
         </div>
-        <br />
+        {/*Insurance Selector Menu*/}
         <div className='section2'>
           <TextField
             id='select-insurance'
@@ -130,6 +131,7 @@ class TextFields extends React.Component {
           </TextField>
         </div>
 
+            {/* Message / text-body */}
         <div className='section3'>
           <TextField
             style={{ width: 300 }}
@@ -143,15 +145,16 @@ class TextFields extends React.Component {
             className={classes.textField}
             margin='normal'
           />
-
+          <div className="g-recaptcha" data-sitekey="6LeLz2AUAAAAAIPJxf_BvDSQWh81XkZv4pEQmZHR" ></div>
           <SendButton />
-        </div>
 
+        </div>
       </form>
     )
   }
 }
 
+  /* Ensure that an object is passes as props*/
 TextFields.propTypes = {
   classes: PropTypes.object.isRequired
 }

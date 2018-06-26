@@ -6,7 +6,8 @@ import { withStyles } from '@material-ui/core/styles';
 
 const styles = theme => ({
   button: {
-    margin: theme.spacing.unit
+    margin: theme.spacing.unit,
+    marginTop: 0
   },
   leftIcon: {
     marginRight: theme.spacing.unit
@@ -25,7 +26,6 @@ function SendButton (params) {
   return (
     <Button variant='contained' type='submit' value='submit' color='primary' className={classes.button}>
       Send
-
     </Button>
   )
 }
