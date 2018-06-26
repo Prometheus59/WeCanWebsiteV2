@@ -20,7 +20,7 @@ function PaperSheet (props) {
   return (
     <div>
       <Paper className={classes.center} elevation={4}>
-        <Typography align='left' variant='headline' component='h3'>
+        <Typography align='center' variant='headline' component='h3'>
           {props.title}
         </Typography>
         <Typography align='left' component='p'>

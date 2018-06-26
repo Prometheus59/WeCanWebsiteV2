@@ -12,8 +12,7 @@ body {
 form {
     border: solid 3px royalblue;
     margin-top: 25px;
-    margin-left: auto;
-    margin-right: auto;
+
     padding: 10px;
     width: 400px;
     overflow: auto;
@@ -47,7 +46,8 @@ form {
     display: flex;
     flex-direction: row;
     width: 400px;
-    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #address {
@@ -63,7 +63,7 @@ form {
 iframe {
     width: 550px;
     height: 400px;
-    margin: 30px;
+    margin: 30px 30px 10px 30px;
     flex-shrink: 2;
 }
 
