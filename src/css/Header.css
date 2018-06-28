@@ -20,15 +20,18 @@
 
 .btn {
     align-items: center;
+    margin-left: 500px !important; /* May need to change this */
+    margin-right: 40px;
+    padding: 10px;
+    display: flex;
 }
 
 .contact-btn {
-    height: 5%;
-    margin-top: 40px !important;
-    margin-left: 700px !important; /* May need to change this */
-    margin-right: 40px;
-    padding: 10px;
+    margin-left: 50px !important;
+    padding-left:10px;
     cursor: pointer;
+    height: 10%;
+    width: 9em;
 }
 
 .contact-btn:hover {
