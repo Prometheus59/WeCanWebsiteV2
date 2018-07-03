@@ -2,6 +2,23 @@
     background-color: #4754B0;
     color: white;
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.mainLinks {
+    display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-evenly;
+}
+
+.mainLinks ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.copyright {
+    margin-left: auto;
+    margin-right: auto;
 }
