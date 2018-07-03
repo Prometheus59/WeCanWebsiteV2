@@ -4,6 +4,7 @@ import './css/index.css';
 import 'typeface-roboto';
 import registerServiceWorker from './registerServiceWorker';
 import TabMenu from './Common/Tabs';
+import Footer from './Common/Footer';
 
 require('typeface-roboto');
 
@@ -11,9 +12,8 @@ class App extends React.Component {
   render () {
     return (
       <div>
-          <div>
             <TabMenu />
-          </div>
+            <Footer />
       </div>
     )
   }
