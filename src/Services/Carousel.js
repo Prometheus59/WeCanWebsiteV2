@@ -11,6 +11,7 @@ class SimpleSlider extends React.Component {
       dots: true,
       infinite: true,
       speed: 500,
+      autoplaySpeed: 10000,
       arrows: true,
       autoplay: true,
       className: 'carouselSlides',
