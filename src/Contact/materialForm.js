@@ -52,7 +52,7 @@ class TextFields extends React.Component {
     this.handleSubmit = this.handleSubmit.bind(this)
   }
 
-/*This handler class handles all changes to state */
+  /* This handler class handles all changes to state */
   handleChange = name => event => {
     this.setState({
       [name]: event.target.value
@@ -99,14 +99,14 @@ class TextFields extends React.Component {
           <TextField
             id='email'
             label='Email'
-            placeholder='example@gmail.com'
+            placeholder='example@example.com'
             className={classes.textField}
             margin='normal'
             value={this.state.value}
             onChange={this.handleChange('email')}
           />
         </div>
-        {/*Insurance Selector Menu*/}
+        {/* Insurance Selector Menu */}
         <div className='section2'>
           <TextField
             id='select-insurance'
@@ -131,7 +131,7 @@ class TextFields extends React.Component {
           </TextField>
         </div>
 
-            {/* Message / text-body */}
+        {/* Message / text-body */}
         <div className='section3'>
           <TextField
             style={{ width: 300 }}
@@ -145,7 +145,10 @@ class TextFields extends React.Component {
             className={classes.textField}
             margin='normal'
           />
-          <div className="g-recaptcha" data-sitekey="6LeLz2AUAAAAAIPJxf_BvDSQWh81XkZv4pEQmZHR" ></div>
+          <div
+            className='g-recaptcha'
+            data-sitekey='6LeLz2AUAAAAAIPJxf_BvDSQWh81XkZv4pEQmZHR'
+          />
           <SendButton />
 
         </div>
@@ -154,7 +157,7 @@ class TextFields extends React.Component {
   }
 }
 
-  /* Ensure that an object is passes as props*/
+/* Ensure that an object is passes as props */
 TextFields.propTypes = {
   classes: PropTypes.object.isRequired
 }
