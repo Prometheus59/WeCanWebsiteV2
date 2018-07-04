@@ -1,20 +1,23 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './css/index.css';
-import 'typeface-roboto';
-import registerServiceWorker from './registerServiceWorker';
-import TabMenu from './Common/Tabs';
-import Footer from './Common/Footer';
+import React from 'react'
+import ReactDOM from 'react-dom'
+import './css/index.css'
+import 'typeface-roboto'
+import registerServiceWorker from './registerServiceWorker'
+import TabMenu from './Common/Tabs'
+import Footer from './Common/Footer'
+import { BrowserRouter } from 'react-router-dom'
 
-require('typeface-roboto');
+require('typeface-roboto')
 
 class App extends React.Component {
   render () {
     return (
-      <div>
-            <TabMenu />
-            <Footer />
-      </div>
+      <BrowserRouter>
+        <div>
+          <TabMenu />
+          <Footer />
+        </div>
+      </BrowserRouter>
     )
   }
 }

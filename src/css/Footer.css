@@ -23,3 +23,8 @@
     margin-left: auto;
     margin-right: auto;
 }
+
+.footer a {
+    color: white;
+    text-decoration: none;
+}

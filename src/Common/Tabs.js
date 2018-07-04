@@ -22,7 +22,6 @@ class TabMenu extends React.Component {
     const { value } = this.state
 
     return (
-      <BrowserRouter>
         <div>
           <Header />
           <Sticky>
@@ -43,7 +42,6 @@ class TabMenu extends React.Component {
             </Switch>
           </div>
         </div>
-      </BrowserRouter>
     )
   }
 }

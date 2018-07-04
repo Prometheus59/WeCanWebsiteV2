@@ -1,5 +1,6 @@
 import React from 'react'
 import '../css/Footer.css'
+import { Link } from 'react-router-dom';
 
 export default class Footer extends React.Component {
   render () {
@@ -7,29 +8,29 @@ export default class Footer extends React.Component {
       <div className='footer'>
         <div className='mainLinks'>
           <div>
-            <h3>Services</h3>
+            <h3><Link to='/services'>Services</Link></h3>
             <ul>
-              <li>Commercial Insurance</li>
-              <li>Home Insurance</li>
-              <li>Auto Insurance</li>
-              <li>Travel Insurance</li>
+              <li><Link to='#'>Commercial Insurance</Link></li>
+              <li><Link to='#'>Home Insurance</Link></li>
+              <li><Link to='#'>Auto Insurance</Link></li>
+              <li><Link to='#'>Travel Insurance</Link></li>
             </ul>
           </div>
           <div>
-            <h3>About</h3>
+            <h3><Link to='#'>About</Link></h3>
             <ul>
-              <li>About Us</li>
-              <li>Contact Us</li>
+              <li><Link to='/about'>About Us</Link></li>
+              <li><Link to='/contact/'>Contact Us</Link></li>
               {/* rel="noopener noreferrer is to stop injection attacks */}
               <li><a href='http://www.soundinsurance.ca' target='_blank' rel="noopener noreferrer">Sound Insurance</a></li>
             </ul>
           </div>
           <div>
-            <h3>Resources</h3>
+            <h3><Link to='#'>Resources</Link></h3>
             <ul>
-              <li>FAQs</li>
-              <li>Downloadable Resources</li>
-              <li>Gov. Links</li>
+              <li><Link to='#'>FAQs</Link></li>
+              <li><Link to='#'>Downloadable Resources</Link></li>
+              <li><Link to='#'>Gov. Links</Link></li>
             </ul>
           </div>
         </div>
