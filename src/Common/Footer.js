@@ -17,7 +17,7 @@ export default class Footer extends React.Component {
             </ul>
           </div>
           <div>
-            <h3><Link to='#'>About</Link></h3>
+            <h3><Link to='/about'>About</Link></h3>
             <ul>
               <li><Link to='/about'>About Us</Link></li>
               <li><Link to='/contact/'>Contact Us</Link></li>
@@ -26,10 +26,10 @@ export default class Footer extends React.Component {
             </ul>
           </div>
           <div>
-            <h3><Link to='#'>Resources</Link></h3>
+            <h3><Link to='/resources'>Resources</Link></h3>
             <ul>
-              <li><Link to='#'>FAQs</Link></li>
               <li><Link to='#'>Downloadable Resources</Link></li>
+              <li><Link to='#'>FAQs</Link></li>
               <li><Link to='#'>Gov. Links</Link></li>
             </ul>
           </div>

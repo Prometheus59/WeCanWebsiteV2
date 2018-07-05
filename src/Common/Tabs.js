@@ -6,6 +6,7 @@ import About from '../About/About'
 import Services from '../Services/Services'
 import Contact from '../Contact/Contact'
 import Header from '../Common/Header'
+import Resources from '../Resources/Resources';
 import { NavLink, BrowserRouter, Route, Switch } from 'react-router-dom'
 import Sticky from 'react-sticky-el'
 
@@ -29,6 +30,7 @@ class TabMenu extends React.Component {
               <Tabs value={value} onChange={this.handleChange}>
                 <Tab label='About' component={NavLink} to='/about' />
                 <Tab label='Services' component={NavLink} to='/services' />
+                <Tab label='Resources' component={NavLink} to='/resources'/>
                 <Tab label='Contact' component={NavLink} to='/contact' />
               </Tabs>
             </AppBar>
@@ -38,6 +40,7 @@ class TabMenu extends React.Component {
               <Route exact path='/' component={About} />
               <Route path='/services' component={Services} />
               <Route path='/about' component={About} />
+              <Route path='/resources' component={Resources} />
               <Route path='/contact' component={Contact} />
             </Switch>
           </div>
