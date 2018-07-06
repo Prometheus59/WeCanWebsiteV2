@@ -9,6 +9,7 @@ export default class FAQ extends React.Component{
               <li>Testing</li>
               <li>Test</li>
               <li>More Testing</li>
+              <li>lil bit more testing</li>
             </ul>
           </div>
         )
