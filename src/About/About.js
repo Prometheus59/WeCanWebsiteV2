@@ -15,7 +15,10 @@ export default class About extends React.Component {
       <div>
         <div id='aboutUs'>
           <Page />
-          <div className='centered'>WeCan Insurance</div>
+          <div className='centered'>
+          <div className='title'>WeCan Insurance</div>
+          <div className='subTitle'>D/O Sound Insurance Services  Inc.</div>
+          </div>
         </div>
         <br />
         <SimpleMediaCards />

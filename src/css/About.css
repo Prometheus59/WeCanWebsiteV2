@@ -13,9 +13,17 @@
 
 #aboutUs .centered {
     position: absolute;
-    top: 30%;
+    top: 22%;
     left: 30%;
+
+}
+
+#aboutUs .title {
     font-size: 500%;
+}
+
+#aboutUs .subTitle {
+    font-size: 140%;
 }
 
 .MuiTypography-headline-538 {
