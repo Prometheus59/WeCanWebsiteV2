@@ -1,17 +1,17 @@
-import React from 'react'
+import React from 'react';
+import HideTemplate from './HideTemplate';
 
 export default class Dresources extends React.Component {
   render () {
     return (
-      <div id='hidden2'>
-        <h3>Downloadable Resources</h3>
+      <HideTemplate title='Downloadable Resources'>
         <ul>
-          <li>Testing</li>
-          <li>Test</li>
-          <li>More Testing</li>
-          <li>look at this, even more testing</li>
+          <li>Resource 1</li>
+          <li>Resource 2</li>
+          <li>More Resources</li>
+          <li>A few more bit more resources</li>
         </ul>
-      </div>
+      </HideTemplate>
     )
   }
 }

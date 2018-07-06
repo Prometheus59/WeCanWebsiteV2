@@ -1,17 +1,17 @@
 import React from 'react';
+import HideTemplate from './HideTemplate';
 
 export default class FAQ extends React.Component{
     render() {
         return (
-            <div id='hidden3'>
-            <h3>FAQs</h3>
+            <HideTemplate title='FAQs'>
             <ul>
-              <li>Testing</li>
-              <li>Test</li>
-              <li>More Testing</li>
-              <li>lil bit more testing</li>
+              <li>FAQ 1</li>
+              <li>FAQ 2</li>
+              <li>FAQ 3</li>
+              <li>FAQ 4</li>
             </ul>
-          </div>
+          </HideTemplate>
         )
     }
 }
