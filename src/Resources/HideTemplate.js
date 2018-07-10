@@ -1,4 +1,6 @@
-import React from 'react'
+import React from 'react';
+import './Resource.css';
+import TitleButton from './TitleButton';
 
 export default class HideTemplate extends React.Component {
   constructor (props) {
@@ -9,7 +11,7 @@ export default class HideTemplate extends React.Component {
 
     this.toggleInstance = (
       <div onClick={this.handleChange}>
-        <h2 className='titles'>{this.props.title}</h2>
+        <TitleButton title={this.props.title}/>
       </div>
     )
   }
