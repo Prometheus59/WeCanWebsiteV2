@@ -3,7 +3,7 @@ import SimpleMediaCard from '../Common/Card'
 import car from '../images/car.jpg'
 import house from '../images/house.jpg'
 import comm from '../images/comm.jpg'
-import trav from '../images/trav.jpg'
+import travel from '../images/trav.jpg'
 
 function SimpleMediaCards (props) {
   return (
@@ -26,7 +26,7 @@ function SimpleMediaCards (props) {
       <SimpleMediaCard
         title='Travel Coverage'
         message="With so many variables going into an travel insurance quote, you'll need to phone our office and speak with one of our knowledgeable brokers"
-        image={trav}
+        image={travel}
       />
     </div>
   )

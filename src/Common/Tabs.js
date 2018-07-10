@@ -7,7 +7,7 @@ import Services from '../Services/Services'
 import Contact from '../Contact/Contact'
 import Header from '../Common/Header'
 import Resources from '../Resources/Resources';
-import { NavLink, BrowserRouter, Route, Switch } from 'react-router-dom'
+import { NavLink, Route, Switch } from 'react-router-dom'
 import Sticky from 'react-sticky-el'
 
 class TabMenu extends React.Component {
