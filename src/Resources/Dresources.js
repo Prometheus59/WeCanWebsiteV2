@@ -1,16 +1,26 @@
 import React from 'react';
 import HideTemplate from './HideTemplate';
+import PaperLink from '../Common/PaperLink';
 
 export default class Dresources extends React.Component {
-  render () {
+  render() {
     return (
       <HideTemplate title='Downloadable Resources'>
-        <ul>
-          <li>Resource 1</li>
-          <li>Resource 2</li>
-          <li>More Resources</li>
-          <li>A few more bit more resources</li>
-        </ul>
+        <PaperLink
+          title='Link 1'
+          message='Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur eius consequuntur adipisci aliquam, quae error exercitationem sunt illo explicabo voluptates!'
+          link='http://google.ca'
+        />
+        <PaperLink
+          title='Link 2'
+          message='Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur eius consequuntur adipisci aliquam, quae error exercitationem sunt illo explicabo voluptates!'
+          link='http://google.ca'
+        />
+        <PaperLink
+          title='Link 2'
+          message='Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur eius consequuntur adipisci aliquam, quae error exercitationem sunt illo explicabo voluptates!'
+          link='http://google.ca'
+        />
       </HideTemplate>
     )
   }
