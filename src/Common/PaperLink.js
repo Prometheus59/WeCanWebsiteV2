@@ -7,7 +7,7 @@ import Button from '@material-ui/core/Button';
 import CardActions from '@material-ui/core/CardActions';
 
 const styles = theme => ({
-  center: theme.mixins.gutters({
+  root: theme.mixins.gutters({
     paddingTop: 16,
     paddingBottom: 16,
     marginTop: theme.spacing.unit * 3,
@@ -15,6 +15,7 @@ const styles = theme => ({
     marginRight: 'auto',
     marginLeft: 'auto',
     maxWidth: 300,
+    borderRadius: 8
   }),
   btn: theme.mixins.gutters({
       marginLeft: 'auto',
@@ -26,7 +27,7 @@ function PaperLink (props) {
   const { classes } = props;
   return (
     <div>
-      <Paper className={classes.center} elevation={4}>
+      <Paper className={classes.root} elevation={4}>
         <Typography align='center' variant='headline' component='h3'>
           {props.title}
         </Typography>

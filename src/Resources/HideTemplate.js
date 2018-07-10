@@ -20,8 +20,8 @@ export default class HideTemplate extends React.Component {
 
   render () {
     const style = this.state.visible ? { visibility: 'visible',
-       transition: 'visibility 0s, opacity 0.5s linear', opacity:1, maxHeight: '1000px' }: 
-       {visibility: 'hidden', opacity: 0, transition: 'visibility 0.5s, opacity 0.5s linear, max-height 0.5s ease-in', maxHeight: 0}
+       transition: 'visibility 0.5s, opacity 0.2s linear, max-height 1s ease', opacity:1, maxHeight: '1000px' }: 
+       {visibility: 'hidden', opacity: 0, transition: 'visibility 0.5s, opacity 0.5s linear, max-height 0.5s ease', maxHeight: 0}
 
     return (
       <div>
