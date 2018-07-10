@@ -7,7 +7,7 @@ import './Resource.css';
 export default class Resources extends React.Component {
   render () {
     return (
-      <div>
+      <div id='resourceTitles'>
         <GovLink />
         <Dresources />
         <FAQ />

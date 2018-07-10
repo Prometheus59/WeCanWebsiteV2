@@ -1,12 +1,17 @@
+#resourceTitles {
+    margin: 40px 0px 0px 0px;
+}
+
 .titles {
     text-align: center;
+    margin: 0 auto 0 auto;
+    border: 1px solid #4754B0;
+    width: 350px;
+    height: 40px;
+    cursor: pointer;
 }
 
 .links {
-
-}
-
-.links ul {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
