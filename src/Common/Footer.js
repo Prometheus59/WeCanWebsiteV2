@@ -10,10 +10,10 @@ export default class Footer extends React.Component {
           <div>
             <h3><Link to='/services'>Services</Link></h3>
             <ul>
-              <li><Link to='#'>Commercial Insurance</Link></li>
-              <li><Link to='#'>Home Insurance</Link></li>
-              <li><Link to='#'>Auto Insurance</Link></li>
-              <li><Link to='#'>Travel Insurance</Link></li>
+              <li><Link to='/services#commercial'>Commercial Insurance</Link></li>
+              <li><Link to='/services#home'>Home Insurance</Link></li>
+              <li><Link to='/services#auto'>Auto Insurance</Link></li>
+              <li><Link to='/services#travel'>Travel Insurance</Link></li>
             </ul>
           </div>
           <div>
@@ -28,9 +28,9 @@ export default class Footer extends React.Component {
           <div>
             <h3><Link to='/resources'>Resources</Link></h3>
             <ul>
-              <li><Link to='#'>Downloadable Resources</Link></li>
-              <li><Link to='#'>FAQs</Link></li>
-              <li><Link to='#'>Gov. Links</Link></li>
+              <li><Link to='/resources'>Downloadable Resources</Link></li>
+              <li><Link to='/resources'>FAQs</Link></li>
+              <li><Link to='/resources'>Gov. Links</Link></li>
             </ul>
           </div>
         </div>
