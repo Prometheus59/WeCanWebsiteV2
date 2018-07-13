@@ -37,7 +37,7 @@
 .contact-btn:hover {
     transition-duration: 0.4s;
     background-color: rgb(59, 103, 235);
-    color: black;
+    color: lightgray;
 }
 
 .contact-btn:focus {
