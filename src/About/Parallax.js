@@ -1,5 +1,5 @@
 import React from 'react';
-import { Parallax, Background } from 'react-parallax';
+import { Parallax } from 'react-parallax';
 import PaperSheets from './PaperSheets';
 
 export default class ParallaxEffect extends React.Component {
@@ -11,6 +11,7 @@ export default class ParallaxEffect extends React.Component {
                     bgImage={require('../images/placeholder.jpg')}
                     bgImageAlt="placeholder image"
                     strength={500}
+                    className='parallax'
                 >
                     <PaperSheets />
                 </Parallax>

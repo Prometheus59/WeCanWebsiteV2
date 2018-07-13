@@ -44,3 +44,7 @@
     flex-direction: row;
     justify-content: space-evenly;
 }
+
+.parallax {
+    z-index:-10;
+}
