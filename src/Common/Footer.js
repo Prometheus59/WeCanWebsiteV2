@@ -1,6 +1,7 @@
 import React from 'react'
 import '../css/Footer.css'
 import { Link } from 'react-router-dom';
+import { HashLink } from 'react-router-hash-link';
 
 export default class Footer extends React.Component {
   render () {
@@ -10,10 +11,10 @@ export default class Footer extends React.Component {
           <div>
             <h3><Link to='/services'>Services</Link></h3>
             <ul>
-              <li><Link to='/services#commercial'>Commercial Insurance</Link></li>
-              <li><Link to='/services#home'>Home Insurance</Link></li>
-              <li><Link to='/services#auto'>Auto Insurance</Link></li>
-              <li><Link to='/services#travel'>Travel Insurance</Link></li>
+              <li><HashLink smooth to='/services#auto'>Auto Insurance</HashLink></li>
+              <li><HashLink smooth to='/services#home'>Home Insurance</HashLink></li>
+              <li><HashLink smooth to='/services#commercial'>Commercial Insurance</HashLink></li>
+              <li><HashLink smooth to='/services#travel'>Travel Insurance</HashLink></li>
             </ul>
           </div>
           <div>
@@ -28,9 +29,9 @@ export default class Footer extends React.Component {
           <div>
             <h3><Link to='/resources'>Resources</Link></h3>
             <ul>
+              <li><HashLink to='/resources#gov'>Gov. Links</HashLink></li>
               <li><Link to='/resources'>Downloadable Resources</Link></li>
               <li><Link to='/resources'>FAQs</Link></li>
-              <li><Link to='/resources'>Gov. Links</Link></li>
             </ul>
           </div>
         </div>
