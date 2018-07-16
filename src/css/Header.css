@@ -1,7 +1,7 @@
 .Header {
     display: flex;
     flex-direction: row;
-    background-color: lightblue;
+    background-color: rgb(136, 221, 240);
 }
 
 .logo {
