@@ -1,6 +1,7 @@
 #resourceTitles {
     margin-top: 75px;
     margin-bottom: 70px;
+    overflow: hidden;
 }
 
 .links {
