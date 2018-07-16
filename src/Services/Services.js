@@ -10,6 +10,7 @@ export default class Services extends React.Component {
              <div>
                  <h1>Services Available</h1>
                  <SimpleSlider />
+                 {/*TODO: Add subsections here for different insurance*/}
              </div>
         )
     }
