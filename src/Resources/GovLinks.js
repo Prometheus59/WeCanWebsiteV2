@@ -10,25 +10,23 @@ export default class GovLink extends React.Component {
       see https://reactjs.org/docs/composition-vs-inheritance.html#containment 
       for more info*/}
         <PaperLink
-          title='Understanding Automobile Insurance'
-          message="Understand what's included in a standard automobile insurance policy. Learn
-          how to increase your liability and accident benefits coverage as well as exclusions in
-          standard auto policies."
-          link='https://www.fsco.gov.on.ca/en/auto/brochures/Pages/brochure_autoins.aspx'
+          title='IBC - Auto Insurance'
+          message="Visit the Insurance Bureau of Canada's website to understand what's included 
+          in a standard automobile insurance policy. Learn what to do after an auto accident,
+           recent changes in auto insurance, and other optional benefits."
+          link='http://www.ibc.ca/on/auto'
         />
         <PaperLink
-          title='Important Changes to Auto Insurance'
-          message='Auto insurance is changing - Learn what you need to do, the most
-           significant changes to auto insurance, and other optional benefits. 
-           Click the link for more information.'
-          link='https://www.fsco.gov.on.ca/en/auto/brochures/Pages/brochure_changes10.aspx'
+          title='IBC - Home Insurance'
+          message='Learn what home insurance policies cover, how to buy home insurance,
+          different types of coverage, buying tips and more. Click the link below to get started.'
+          link='http://www.ibc.ca/on/home'
         />
         <PaperLink
-          title='After Auto Accident'
-          message='Learn what to do after an auto accident. Click the link for more information 
-          about reporting the accident to your broker, getting your vehicle repaired and 
-          applying for accident benefit.'
-          link='https://www.fsco.gov.on.ca/en/auto/brochures/Pages/brochure_claims.aspx'
+          title='Insurance 101'
+          message='Learn the basics of insurance to protect yourself and your property
+          when buying a home, driving a car or starting a business.'
+          link='http://www.ibc.ca/on/insurance-101'
         />
       </HideTemplate>
     )
