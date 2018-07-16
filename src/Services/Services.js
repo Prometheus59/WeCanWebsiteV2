@@ -12,12 +12,11 @@ export default class Services extends React.Component {
             <div>
                 <h1>Services Available</h1>
                 <SimpleSlider />
-                {/*TODO: Add subsections here for different insurance*/}
                 <div className='detailedInsurance'>
-                    <div id='auto'>Car Insurance</div>
-                    <div id='home'>home Insurance</div>
-                    <div id='commercial'>comm Insurance</div>
-                    <div id='travel'>travel Insurance</div>
+                    <div className='insuranceType' id='auto'>Car Insurance</div>
+                    <div className='insuranceType' id='home'>home Insurance</div>
+                    <div className='insuranceType' id='commercial'>comm Insurance</div>
+                    <div className='insuranceType' id='travel'>travel Insurance</div>
                 </div>
             </div>
         )

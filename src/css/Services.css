@@ -3,7 +3,6 @@
     margin-left: auto;
     margin-right: auto;
     padding: 20px;
-    z-index: -10;
 }
 
 .slick-prev:before, .slick-next:before {
@@ -14,4 +13,10 @@ h1 {
     padding: 10px;
     margin-left: 50px;
     margin-top: 40px;
+}
+
+.insuranceType {
+    height: 500px;
+    background: slategray;
+    border: 2px solid red;
 }
