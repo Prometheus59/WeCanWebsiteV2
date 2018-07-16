@@ -14,7 +14,8 @@ const styles = theme => ({
     marginBottom: theme.spacing.unit * 3,
     marginRight: 'auto',
     marginLeft: 'auto',
-    maxWidth: 300,
+    maxWidth: 370,
+    minHeight: 235,
     borderRadius: 8
   }),
   btn: theme.mixins.gutters({
@@ -31,9 +32,11 @@ function PaperLink (props) {
         <Typography align='center' variant='headline' component='h3'>
           {props.title}
         </Typography>
+        <br />
         <Typography align='left' component='p'>
           {props.message}
         </Typography>
+        <br />
         <CardActions >
         <Button className={classes.btn} size="medium" variant='raised'
         href={props.link} target='_blank' rel="noopener noreferrer">Link</Button>
