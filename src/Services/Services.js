@@ -10,7 +10,7 @@ export default class Services extends React.Component {
         return (
             // Make this a carousel selector
             <div>
-                <h1>Services Available</h1>
+                <h1 id='servicesAvailable'>Services Available</h1>
                 <SimpleSlider />
                 <div className='detailedInsurance'>
                     <div className='insuranceType' id='auto'>Car Insurance</div>

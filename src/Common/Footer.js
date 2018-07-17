@@ -9,7 +9,7 @@ export default class Footer extends React.Component {
       <div className='footer'>
         <div className='mainLinks'>
           <div>
-            <h3><Link to='/services'>Services</Link></h3>
+            <h3><HashLink smooth to='/services#servicesAvailable'>Services</HashLink></h3>
             <ul>
               <li><HashLink smooth to='/services#auto'>Auto Insurance</HashLink></li>
               <li><HashLink smooth to='/services#home'>Home Insurance</HashLink></li>
@@ -37,7 +37,7 @@ export default class Footer extends React.Component {
         </div>
 
         <div className='copyright'>
-            <h5>&#169; 2018 WeCan Insurance</h5>
+            <h5>&#169; 2018 WeCan Insurance</h5> {/*&#169; = copyright symbol*/}
         </div>
       </div>
     )
