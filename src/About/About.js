@@ -13,7 +13,7 @@ function Page () {
 export default class About extends React.Component {
   render () {
     return (
-      <div>
+      <div id='about'>
         <div id='aboutUs'>
           <Page />
           <div className='centered'>

@@ -36,7 +36,7 @@ class TabMenu extends React.Component {
               </Tabs>
             </AppBar>
           </Sticky>
-          <div className='content'>
+          <div id='content'>
             <Switch>
               <Route exact path='/' component={About} />
               <Route path='/services' component={Services} />
