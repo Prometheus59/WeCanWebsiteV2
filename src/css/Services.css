@@ -3,6 +3,8 @@
     margin-left: auto;
     margin-right: auto;
     padding: 20px;
+    position: relative;
+    z-index: inherit;
 }
 
 .slick-prev:before, .slick-next:before {
@@ -10,13 +12,20 @@
 }
 
 h1 {
-    padding: 10px;
+    padding: 50px;
     margin-left: 50px;
-    margin-top: 40px;
+    margin-top: 0px;
 }
 
 .insuranceType {
     height: 500px;
     background: slategray;
     border: 2px solid red;
+    margin: 20px 15px 15px 15px;
+}
+
+#ellip {
+    background: #6D8AF2;
+    border-bottom-left-radius: 20% 15%;
+    border-bottom-right-radius: 20% 15%;
 }
