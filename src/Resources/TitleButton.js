@@ -8,7 +8,8 @@ const styles = theme => ({
         margin: '0 auto',
         marginTop: '15px',
         marginBottom: '15px',
-        display: 'block'
+        display: 'block',
+        fontSize: '1.3em'
     },
 });
 
