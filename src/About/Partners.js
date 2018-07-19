@@ -28,7 +28,8 @@ export default class Partners extends React.Component {
         pauseOnHover: false,
         centerMode: true,
         cssEase: 'linear',
-        className: 'slides'
+        className: 'slides',
+        lazyLoad: 'progressive'
       };
       return (
         <Slider {...settings}>
