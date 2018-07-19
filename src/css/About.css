@@ -1,3 +1,7 @@
+.about {
+    /*background-image: linear-gradient(rgb(85, 135, 223), #91A8D0) */
+}
+
 #aboutUs {
     position: relative;
     text-align: center;
@@ -47,4 +51,14 @@
 
 .parallax {
     z-index:-10;
+}
+
+.slides img {
+    vertical-align: text-bottom;
+    max-height: 50px;
+    max-width: 100px;
+    padding-top: 20px;
+    margin-top: 10px;
+    padding-bottom: 15px;
+    text-align: center;
 }

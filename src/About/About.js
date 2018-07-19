@@ -5,6 +5,7 @@ import './Cards';
 import PaperSheets from './PaperSheets';
 import SimpleMediaCards from './Cards';
 import ParallaxEffect from './Parallax';
+import Partners from './Partners';
 
 function Page () {
   return <img src={pagesrc} alt='mainImage' />
@@ -13,7 +14,7 @@ function Page () {
 export default class About extends React.Component {
   render () {
     return (
-      <div id='about'>
+      <div class='about'>
         <div id='aboutUs'>
           <Page />
           <div className='centered'>
@@ -24,7 +25,8 @@ export default class About extends React.Component {
         <br />
         <SimpleMediaCards />
         <ParallaxEffect />
-        <PaperSheets />
+        <Partners />
+      {/* This will be a message saying to contact us */}
       </div>
     )
   }
