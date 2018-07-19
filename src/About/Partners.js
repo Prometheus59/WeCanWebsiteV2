@@ -19,7 +19,7 @@ export default class Partners extends React.Component {
       var settings = {
         dots: false,
         infinite: true,
-        speed: 2000,
+        speed: 3000,
         slidesToShow: 7,
         slidesToScroll: 4,
         arrows: false,
