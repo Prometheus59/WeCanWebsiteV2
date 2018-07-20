@@ -21,14 +21,12 @@ export default class PartnersCarousel extends React.Component {
     var settings = {
       dots: false,
       infinite: true,
-      speed: 3000,
-      slidesToShow: 7,
-      slidesToScroll: 4,
+      speed: 2000,
+      slidesToShow: 9,
       arrows: false,
       autoplay: true,
       autoplaySpeed: 0,
       pauseOnHover: false,
-      centerMode: true,
       cssEase: 'linear',
       className: 'slides',
       lazyLoad: 'progressive'
