@@ -7,7 +7,7 @@ export default class Dresources extends React.Component {
     return (
       <HideTemplate title='Downloadable Resources'>
         <PaperLink
-          title='IBC Auto Insurance Explained'
+          title='Auto Insurance Explained'
           message="Understanding your auto insurance policy is extremely important.
            Click the link below to download Insurnace Bureau of Canada's brochure for more information."
           link='http://assets.ibc.ca/Documents/Brochures/ON-Auto-Ins-Explained.pdf'

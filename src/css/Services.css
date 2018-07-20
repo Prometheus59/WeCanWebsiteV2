@@ -25,7 +25,12 @@ h1 {
 }
 
 #ellip {
-    background: #6D8AF2;
+   /* background: #6D8AF2;
     border-bottom-left-radius: 20% 15%;
-    border-bottom-right-radius: 20% 15%;
+    border-bottom-right-radius: 20% 15%; */
+}
+
+.hide {
+    z-index: -1;
+    position: relative;
 }
