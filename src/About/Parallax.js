@@ -10,7 +10,7 @@ export default class ParallaxEffect extends React.Component {
                     blur={2}
                     bgImage={require('../images/placeholder.jpg')}
                     bgImageAlt="placeholder image"
-                    strength={500}
+                    strength={300}
                     className='parallax'
                 >
                     <PaperSheets />

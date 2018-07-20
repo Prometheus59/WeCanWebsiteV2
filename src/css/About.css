@@ -50,7 +50,14 @@
 }
 
 .parallax {
+    margin-top: 60px;
     z-index:-10;
+    height: 400px;
+}
+
+.parallax .paper {
+    text-align: center;
+    padding-top: 100px;
 }
 
 /* Infinite Scrolling Carousel - Partners.js */
@@ -76,7 +83,9 @@
 }
 
 #viewPartners a {
-    color: black;
+    padding-top: 5;
+    margin-top: 0;
+    color: darkblue;
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
 }
