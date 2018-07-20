@@ -53,6 +53,8 @@
     z-index:-10;
 }
 
+/* Infinite Scrolling Carousel - Partners.js */
+
 .slides img {
     vertical-align: text-bottom;
     max-height: 50px;
@@ -65,4 +67,16 @@
 
 .slides {
     z-index: -1;
+}
+
+#viewPartners {
+    text-align:center;
+    text-decoration: none;
+    padding-bottom: 30px;
+}
+
+#viewPartners a {
+    color: black;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
 }

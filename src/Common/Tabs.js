@@ -5,7 +5,8 @@ import Tab from '@material-ui/core/Tab';
 import About from '../About/About';
 import Services from '../Services/Services';
 import Contact from '../Contact/Contact';
-import Header from '../Common/Header';
+import Partners from '../About/Partners';
+import Header from './Header';
 import Resources from '../Resources/Resources';
 import { NavLink, Route, Switch } from 'react-router-dom';
 import Sticky from 'react-sticky-el';
@@ -43,6 +44,7 @@ class TabMenu extends React.Component {
               <Route path='/about' component={About} />
               <Route path='/resources' component={Resources} />
               <Route path='/contact' component={Contact} />
+              <Route path='/partners' component={Partners} />
             </Switch>
           </div>
         </div>

@@ -4,7 +4,7 @@ import '../css/About.css';
 import './Cards';
 import SimpleMediaCards from './Cards';
 import ParallaxEffect from './Parallax';
-import Partners from './Partners';
+import PartnersCarousel from './PartnersCarousel';
 import Speak from './Speak';
 
 function Page () {
@@ -22,7 +22,7 @@ export default class About extends React.Component {
           <div className='subTitle'>D/O Sound Insurance Services  Inc.</div>
           </div>
         </div>
-        <Partners />
+        <PartnersCarousel />
         <SimpleMediaCards />
         <ParallaxEffect />
         <Speak

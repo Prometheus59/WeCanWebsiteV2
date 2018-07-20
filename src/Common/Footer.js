@@ -22,6 +22,7 @@ export default class Footer extends React.Component {
             <ul>
               <li><Link to='/about'>About Us</Link></li>
               <li><Link to='/contact/'>Contact Us</Link></li>
+              <li><Link to='/partners'>Partners</Link></li>
               {/* rel="noopener noreferrer is to stop injection attacks */}
               <li><a href='http://www.soundinsurance.ca' target='_blank' rel="noopener noreferrer">Sound Insurance</a></li>
             </ul>
