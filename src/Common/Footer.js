@@ -8,23 +8,23 @@ export default class Footer extends React.Component {
     return (
       <div className='footer'>
         <div className='mainLinks'>
+        <div>
+            <h3><HashLink smooth to='/about#aboutUs'>About</HashLink></h3>
+            <ul>
+              <li><Link to='/about'>About Us</Link></li>
+              <li><Link to='/contact'>Contact Us</Link></li>
+              <li><Link to='/partners'>Partners</Link></li>
+              {/* rel="noopener noreferrer is to stop injection attacks */}
+              <li><a href='http://www.soundinsurance.ca' target='_blank' rel="noopener noreferrer">Sound Insurance</a></li>
+            </ul>
+          </div>
           <div>
-            <h3><HashLink smooth to='/services#servicesAvailable'>Services</HashLink></h3>
+            <h3><HashLink smooth to='/services#ellip'>Services</HashLink></h3>
             <ul>
               <li><HashLink smooth to='/services#auto'>Auto Insurance</HashLink></li>
               <li><HashLink smooth to='/services#home'>Home Insurance</HashLink></li>
               <li><HashLink smooth to='/services#commercial'>Commercial Insurance</HashLink></li>
               <li><HashLink smooth to='/services#travel'>Travel Insurance</HashLink></li>
-            </ul>
-          </div>
-          <div>
-            <h3><Link to='/about'>About</Link></h3>
-            <ul>
-              <li><Link to='/about'>About Us</Link></li>
-              <li><Link to='/contact/'>Contact Us</Link></li>
-              <li><Link to='/partners'>Partners</Link></li>
-              {/* rel="noopener noreferrer is to stop injection attacks */}
-              <li><a href='http://www.soundinsurance.ca' target='_blank' rel="noopener noreferrer">Sound Insurance</a></li>
             </ul>
           </div>
           <div>
