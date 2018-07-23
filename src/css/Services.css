@@ -11,17 +11,26 @@
     font-size: 40px !important;
 }
 
+/*
 h1 {
     padding: 50px;
     margin-left: 50px;
     margin-top: 0px;
+} */
+
+.detailedInsurance {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    align-items: center
 }
 
 .insuranceType {
-    height: 500px;
-    background: slategray;
-    border: 2px solid red;
+    min-height: 300px;
+    padding: 5px 20px 5px 20px;
+    background: white;
     margin: 20px 15px 15px 15px;
+    width: 1000px;
 }
 
 #ellip {

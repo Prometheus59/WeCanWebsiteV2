@@ -1,6 +1,7 @@
 import React from 'react';
 import SimpleSlider from './Carousel';
 import '../css/Services.css';
+import Auto from './Auto';
 
 
 export default class Services extends React.Component {
@@ -9,14 +10,20 @@ export default class Services extends React.Component {
         return (
             // Make this a carousel selector
             <div>
-                <div id='ellip'>              
-                <SimpleSlider />
+                <div id='ellip'>
+                    <SimpleSlider />
                 </div>
                 <div className='detailedInsurance'>
-                    <div className='insuranceType' id='auto'>Car Insurance</div>
-                    <div className='insuranceType' id='home'>home Insurance</div>
-                    <div className='insuranceType' id='commercial'>comm Insurance</div>
-                    <div className='insuranceType' id='travel'>travel Insurance</div>
+                    <Auto />
+                    <div className='insuranceType' id='home'>
+                        <h2>Home Insurance</h2>
+                    </div>
+                    <div className='insuranceType' id='commercial'>
+                        <h2>Commercial Insurance</h2>
+                    </div>
+                    <div className='insuranceType' id='travel'>
+                        <h2>Travel Insurance</h2>
+                    </div>
                 </div>
             </div>
         )
