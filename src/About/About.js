@@ -27,9 +27,9 @@ export default class About extends React.Component {
         <ParallaxEffect />
         <Speak
           title='Get The Coverage You Deserve Today'
-          message="Please don't hesitate to reach out to us. Click the button below re-direct
-          to our contact page."
-        />
+          message="Please don't hesitate to reach out to us with any questions you may have
+          Click the button below re-direct to our contact page."
+        />  
       </div>
     )
   }
