@@ -4,6 +4,7 @@ import './Services.css';
 import Auto from './auto';
 import Home from './home';
 import Commercial from './commercial';
+import Travel from './travel';
 
 
 export default class Services extends React.Component {
@@ -19,9 +20,7 @@ export default class Services extends React.Component {
                     <Auto />
                     <Home />
                     <Commercial />
-                    <div className='insuranceType' id='travel'>
-                        <h2>Travel Insurance</h2>
-                    </div>
+                    <Travel />
                 </div>
             </div>
         )
