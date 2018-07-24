@@ -4,23 +4,14 @@ export default class Commercial extends React.Component {
     render(){
         return(
             <div className='insuranceType' id='commercial'>
-                <h2>Auto Insurance</h2>
-                <p> Vehicle insurance in Ontario is not just a preventative measure, it's a 
-                    <strong> requirement</strong>. If you are caught driving without valid vehicle insurance,
-                    you may face fines from $5,000 - $50,000 and risk having your driver's license suspended and vehicle impounded.
+                <h2>Commercial Insurance</h2>
+                <p> Building a business means investing money, time, energy and countless resources. Without 
+                    commercial insurance, all those investments could dissapear overnight for any number of reasons.
+                    Property damage, lawsuits and business fraud are just a few reasons why businesses need
+                    commercial insurance.
                 </p>
-                <p> Here at WeCan Insurance, we compare quotes with our numerous insurance partners to offer you 
-                    personalized service with the best rates and coverage available for your vehicle.
-                </p>
-                <p>We offer insurance for many vehicles including:
-                    <ul>
-                        <li>Cars</li>
-                        <li>Motorcycles</li>
-                        <li>ATVs</li>
-                        <li>Snow Mobiles</li>
-                        <li>Motorhomes</li>
-                        <li>Antique / Collector Vechicles</li>
-                    </ul>
+                <p> Here at WeCan Insurance, we compare quotes with our numerous insurance partners to ensure all
+                    parts of your business are properly protected for the lowest rates.
                 </p>
             </div>
         )
