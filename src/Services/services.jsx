@@ -1,6 +1,6 @@
 import React from 'react';
 import SimpleSlider from './carousel';
-import '../css/Services.css';
+import './Services.css';
 import Auto from './auto';
 import Home from './home';
 import Commercial from './commercial';

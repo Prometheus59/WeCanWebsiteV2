@@ -1,6 +1,6 @@
 import React from 'react'
 import Slider from 'react-slick'
-import '../css/Services.css';
+import './Services.css';
 
 import "../../node_modules/slick-carousel/slick/slick-theme.css"
 import "../../node_modules/slick-carousel/slick/slick.css"
