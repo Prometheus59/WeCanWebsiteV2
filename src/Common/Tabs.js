@@ -3,7 +3,7 @@ import AppBar from '@material-ui/core/AppBar';
 import Tabs from '@material-ui/core/Tabs';
 import Tab from '@material-ui/core/Tab';
 import About from '../About/About';
-import Services from '../Services/Services';
+import Services from '../Services/services';
 import Contact from '../Contact/Contact';
 import Partners from '../About/Partners';
 import Header from './Header';
@@ -25,10 +25,10 @@ class TabMenu extends React.Component {
     const { value } = this.state
 
     return (
-        <div>
+        <div id='tabs'>
           <Header />
           <Sticky>
-            <AppBar position='static' id='navBar'>
+            <AppBar position='relative' id='navBar'>
               <Tabs value={value} onChange={this.handleChange}>
                 <Tab label='About' component={NavLink} to='/about' />
                 <Tab label='Services' component={NavLink} to='/services' />

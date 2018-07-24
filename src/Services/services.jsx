@@ -1,8 +1,9 @@
 import React from 'react';
-import SimpleSlider from './Carousel';
+import SimpleSlider from './carousel';
 import '../css/Services.css';
-import Auto from './Auto';
-import Home from './Home';
+import Auto from './auto';
+import Home from './home';
+import Commercial from './commercial';
 
 
 export default class Services extends React.Component {
@@ -17,9 +18,7 @@ export default class Services extends React.Component {
                 <div className='detailedInsurance'>
                     <Auto />
                     <Home />
-                    <div className='insuranceType' id='commercial'>
-                        <h2>Commercial Insurance</h2>
-                    </div>
+                    <Commercial />
                     <div className='insuranceType' id='travel'>
                         <h2>Travel Insurance</h2>
                     </div>
