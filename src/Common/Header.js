@@ -19,7 +19,7 @@ export default class Header extends React.Component {
           <Translate />
           <Button variant="contained" color="primary" className="contact-btn" component={NavLink} to='/contact'>
             Contact Us
-      </Button>
+          </Button>
         </div>
       </div>
     )

@@ -29,6 +29,28 @@
     font-size: 140%;
 }
 
+@media only screen and (max-width:440px) {
+    
+    #aboutUs .centered {
+        padding-top: 0;
+        top: 8%;
+        left: 11%;
+    }
+    #aboutUs .title {
+        font-size: 250%;
+        margin-bottom: 0;
+    }
+    #aboutUs .subTitle {
+        font-size: 120%;
+    }
+    #aboutUs img {
+        height: 200px;
+        text-align: center;
+    }
+}
+
+/* Cards */
+
 .MuiTypography-headline-538 {
     margin-bottom: 12px !important;
 }
@@ -49,6 +71,7 @@
     justify-content: space-evenly;
 }
 
+/* Parallax */
 .parallax {
     margin-top: 60px;
     z-index:-10;
@@ -60,10 +83,20 @@
     padding-top: 100px;
 }
 
+@media only screen and (max-width: 440px) {
+    .parallax {
+        height: 600px;
+    }
+
+    .parallax .paper {
+        padding-top: 20px;
+    }
+}
+
 /* Infinite Scrolling Carousel - Partners.js */
 
 .slides img {
-    vertical-align: text-bottom;
+    vertical-align: middle;
     max-height: 50px;
     max-width: 100px;
     padding-top: 20px;
@@ -74,7 +107,14 @@
 
 .slides {
     z-index: -1;
+
 }
+
+#mpartners {
+    display: none;
+}
+
+ /* partners link */
 
 #viewPartners {
     text-align:center;
@@ -88,4 +128,31 @@
     color: darkblue;
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
+}
+
+@media only screen and (max-width: 440px) {
+    #partners {
+        display: none;
+    }
+    #mpartners {
+        display: block;
+    }
+    #mviewPartners {
+        text-align: center;
+        margin-top: 10px;
+    }
+    #mviewPartners a {
+        color: darkblue;
+        text-decoration: none;
+        font-family: 'Roboto', sans-serif;
+    }
+}
+
+/* Speak / Contact message */
+@media only screen and (max-width: 440px) {
+    #speak {
+        width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
