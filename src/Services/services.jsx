@@ -5,6 +5,7 @@ import Auto from './auto';
 import Home from './home';
 import Commercial from './commercial';
 import Travel from './travel';
+import MobileSimpleSlider from '../Mobile/MobileCarousel';
 
 
 export default class Services extends React.Component {
@@ -15,6 +16,7 @@ export default class Services extends React.Component {
             <div>
                 <div id='ellip'>
                     <SimpleSlider />
+                    <MobileSimpleSlider />
                 </div>
                 <div className='detailedInsurance'>
                     <Auto />
