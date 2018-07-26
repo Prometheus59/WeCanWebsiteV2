@@ -7,8 +7,21 @@
     z-index: 2;
 }
 
+.mcarouselSlides {
+    display: none !important;
+}
+
 .slick-prev:before, .slick-next:before {
     font-size: 40px !important;
+}
+
+@media only screen and (max-width: 440px) {
+    .mcarouselSlides {
+        display: block !important;
+    }
+    .carouselSlides {
+        display: none !important;
+    }
 }
 
 /*
@@ -45,7 +58,9 @@ h1 {
     border-bottom-right-radius: 20% 15%; */
 }
 
+/*
 .hide {
     z-index: -1;
     position: relative;
-}
+} */
+

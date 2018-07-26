@@ -8,18 +8,19 @@ import Translate from './Translation';
 const logo = icon;
 
 export default class Header extends React.Component {
-  render () {
+  render() {
     return (
       <div className='Header'>
-        <img className='logo' src={logo} alt='WeCan Logo' />
-        <div className='title'>WeCan Insurance</div>
-
+        <div className='main'>
+          <img className='logo' src={logo} alt='WeCan Logo' />
+          <div className='title'>WeCan Insurance</div>
+        </div>
         <div className='btn'>
-        <Translate/>
-        <Button variant="contained" color="primary" className="contact-btn" component={NavLink} to='/contact'>
-        Contact Us
-      </Button>
-      </div>
+          <Translate />
+          <Button variant="contained" color="primary" className="contact-btn" component={NavLink} to='/contact'>
+            Contact Us
+          </Button>
+        </div>
       </div>
     )
   }
