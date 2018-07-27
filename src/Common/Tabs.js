@@ -28,7 +28,7 @@ class TabMenu extends React.Component {
         <div id='tabs'>
           <Header />
           <Sticky>
-            <AppBar position='relative' id='navBar'>
+            <AppBar position='sticky' id='navBar'>
               <Tabs id='standard' value={value} onChange={this.handleChange}>
                 <Tab label='About' component={NavLink} to='/about' />
                 <Tab label='Services' component={NavLink} to='/services' />
