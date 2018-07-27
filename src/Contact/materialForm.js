@@ -146,10 +146,6 @@ class TextFields extends React.Component {
             className={classes.textField}
             margin='normal'
           />
-          <div
-            className='g-recaptcha'
-            data-sitekey='6LeLz2AUAAAAAIPJxf_BvDSQWh81XkZv4pEQmZHR'
-          />
           <SendButton cc={this.state.email} subject={this.state.insuranceType} body={this.state.message} />
 
         </div>
