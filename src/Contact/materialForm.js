@@ -60,6 +60,7 @@ class TextFields extends React.Component {
   }
 
   handleSubmit (event) {
+    /*
     alert(
       'Name: ' +
         this.state.name +
@@ -73,7 +74,7 @@ class TextFields extends React.Component {
         'Message: ' +
         this.state.message
     )
-    // TODO: Add email submission here
+    // TODO: Add email submission here */
   }
 
   render () {
@@ -149,7 +150,7 @@ class TextFields extends React.Component {
             className='g-recaptcha'
             data-sitekey='6LeLz2AUAAAAAIPJxf_BvDSQWh81XkZv4pEQmZHR'
           />
-          <SendButton />
+          <SendButton cc={this.state.email} subject={this.state.insuranceType} body={this.state.message} />
 
         </div>
       </form>

@@ -20,13 +20,14 @@ const styles = theme => ({
   }
 })
 
-function SendButton (params) {
-  const { classes } = params;
-
+function SendButton (props) {
+  const { classes } = props;
   return (
     <Button variant='contained' type='submit' value='submit' color='primary' className={classes.button}>
-      Send
+      <a href={'mailto:WeCanTemp@soundinsurance.ca?cc=' + props.cc + '&subject=' + 
+      props.subject+'&body='+props.body}>Send</a>
     </Button>
+    /* Add cc to sender's email address */
   )
 }
 
