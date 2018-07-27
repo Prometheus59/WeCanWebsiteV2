@@ -22,9 +22,19 @@ const styles = theme => ({
 
 function SendButton (props) {
   const { classes } = props;
+  // Javascript Concatenation 
+  var x = 'We';
+  var y = 'Can';
+  var z = 'Temp';
+  var at = '@';
+  var a = 'sound';
+  var b = 'insurance';
+  var c = '.ca';
+
+
   return (
     <Button variant='contained' type='submit' value='submit' color='primary' className={classes.button}>
-      <a href={'mailto:WeCanTemp@soundinsurance.ca?cc=' + props.cc + '&subject=' + 
+      <a href={'mailto:' + x + y + z + at + a + b + c + '?cc=' + props.cc + '&subject=' + 
       props.subject+'&body='+props.body}>Send</a>
     </Button>
     /* Add cc to sender's email address */
