@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 import { withStyles } from '@material-ui/core/styles'
 import MenuItem from '@material-ui/core/MenuItem'
 import TextField from '@material-ui/core/TextField'
-import SendButton from './Send'
+import SimpleSnackbar from './SimpleSnackbar';
 
 const styles = theme => ({
   container: {
@@ -46,7 +46,7 @@ class TextFields extends React.Component {
       name: 'No name provided',
       email: 'No email provided',
       message: 'No message provided',
-      insuranceType: 'Auto'
+      insuranceType: 'Insurance Type not provided'
     }
     this.handleChange = this.handleChange.bind(this)
     this.handleSubmit = this.handleSubmit.bind(this)
@@ -60,21 +60,11 @@ class TextFields extends React.Component {
   }
 
   handleSubmit (event) {
-    /*
-    alert(
-      'Name: ' +
-        this.state.name +
-        '\n' +
-        'Email: ' +
-        this.state.email +
-        '\n' +
-        'Selection: ' +
-        this.state.insuranceType +
-        '\n' +
-        'Message: ' +
-        this.state.message
-    )
-    // TODO: Add email submission here */
+  /*  event.preventDefault();
+    window.setTimeout(function () {
+      document.location.reload();
+  }, 3000);
+    //This will also open the email client */
   }
 
   render () {
@@ -146,8 +136,7 @@ class TextFields extends React.Component {
             className={classes.textField}
             margin='normal'
           />
-          <SendButton cc={this.state.email} subject={this.state.insuranceType} body={this.state.message} />
-
+          <SimpleSnackbar cc={this.state.email} subject={this.state.insuranceType} body={this.state.message} />
         </div>
       </form>
     )
@@ -158,5 +147,6 @@ class TextFields extends React.Component {
 TextFields.propTypes = {
   classes: PropTypes.object.isRequired
 }
+
 
 export default withStyles(styles)(TextFields)
