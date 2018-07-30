@@ -51,7 +51,7 @@ class SimpleSnackbar extends React.Component {
     var c = '.ca';
     return (
       <div>
-        <Button type='submit' variant='contained' value='submit' color='primary' onClick={this.handleClick}>
+        <Button id='submitBtn' type='submit' variant='contained' value='submit' color='primary' onClick={this.handleClick}>
           Send
         </Button>
 
