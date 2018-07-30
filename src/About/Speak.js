@@ -6,6 +6,7 @@ import Typography from '@material-ui/core/Typography'
 import Button from '@material-ui/core/Button';
 import CardActions from '@material-ui/core/CardActions';
 import { Link } from 'react-router-dom';
+import '../css/About.css';
 
 const styles = theme => ({
   root: theme.mixins.gutters({
@@ -27,7 +28,7 @@ const styles = theme => ({
 function Speak (props) {
   const { classes } = props;
   return (
-    <div>
+    <div id='speak'>
       <Paper className={classes.root} elevation={4}>
         <Typography align='center' variant='headline' component='h3'>
           {props.title}

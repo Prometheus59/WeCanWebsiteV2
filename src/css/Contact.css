@@ -2,14 +2,6 @@ body {
     background-color: #8FD8E9;
 }
 
-.container {
-    margin-left: 50px;
-    margin-top: 20px;
-    display: flex;
-    flex-direction: row;
-}
-
-
 /* Google reCaptcha Button */
 .g-recaptcha {
     margin-left: 0px;
@@ -93,4 +85,47 @@ iframe {
 .companyInfo {
     display: flex;
     flex-direction: column;
+}
+
+#emailLink {
+    display: none;
+}
+
+#submitBtn {
+    margin: 10px 0px 10px 10px;
+}
+
+@media only screen and (max-width: 440px) {
+    .formContainer {
+        flex-direction: column;
+    }
+
+    form {
+        max-width: 95%;
+        overflow: hidden;
+        padding: 0px;
+        background-color: whitesmoke;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .gmaps {
+        display: flex;
+        justify-content: center;
+        order: 2;
+    }
+
+    .gmaps iframe {
+        max-width: 95%;
+        height: 450px;
+        margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .contact-info {
+        order: 1;
+        width: 370px;
+        margin-top: 20px;
+    }
 }

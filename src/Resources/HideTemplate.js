@@ -10,7 +10,7 @@ export default class HideTemplate extends React.Component {
     this.handleChange = this.handleChange.bind(this)
 
     this.toggleInstance = (
-      <div onClick={this.handleChange}>
+      <div onClick={this.handleChange} id='toggleinst'>
         <TitleButton title={this.props.title}/>
       </div>
     )

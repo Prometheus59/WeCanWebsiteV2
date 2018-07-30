@@ -10,7 +10,7 @@ export default class Travel extends React.Component {
                     that could occur before or during your time abroad.
                 </p>
 
-                <p>Some reasons why you may want to secure travel insurance include:
+                <p>Some reasons why you may want to secure travel insurance include: </p>
                     <ul>
                         <li>Sickness when abroad</li>
                         <li>Injuries sustained abroad</li>
@@ -18,7 +18,7 @@ export default class Travel extends React.Component {
                         <li>If travel insurance is a requirement in the country</li>
                         <li>Emergency cancellations</li>
                     </ul>
-                </p>
+                
 
                 <p> Here at WeCan Insurance, we compare quotes with our numerous insurance partners to offer you
                     personalized service with the best rates and coverage available. Rest easy

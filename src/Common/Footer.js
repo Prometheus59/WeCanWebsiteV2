@@ -8,7 +8,7 @@ export default class Footer extends React.Component {
     return (
       <div className='footer'>
         <div className='mainLinks'>
-        <div>
+        <div className='footerHeaders'>
             <h3><HashLink smooth to='/about#aboutUs'>About</HashLink></h3>
             <ul>
               <li><Link to='/about'>About Us</Link></li>
@@ -18,7 +18,7 @@ export default class Footer extends React.Component {
               <li><a href='http://www.soundinsurance.ca' target='_blank' rel="noopener noreferrer">Sound Insurance</a></li>
             </ul>
           </div>
-          <div>
+          <div className='footerHeaders'>
             <h3><HashLink smooth to='/services#ellip'>Services</HashLink></h3>
             <ul>
               <li><HashLink smooth to='/services#auto'>Auto Insurance</HashLink></li>
@@ -27,7 +27,7 @@ export default class Footer extends React.Component {
               <li><HashLink smooth to='/services#travel'>Travel Insurance</HashLink></li>
             </ul>
           </div>
-          <div>
+          <div className='footerHeaders'>
             <h3><Link to='/resources'>Resources</Link></h3>
             <ul>
               <li><HashLink to='/resources#gov'>Gov. Links</HashLink></li>

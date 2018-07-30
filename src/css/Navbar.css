@@ -36,3 +36,16 @@
     z-index: 500;
     top: 136 !important;
 }
+
+#fullwidth {
+    display: none;
+}
+
+@media only screen and (max-width: 440px) {
+    #standard {
+        display: none;
+    }
+    #fullwidth {
+        display: block;
+    }
+}
