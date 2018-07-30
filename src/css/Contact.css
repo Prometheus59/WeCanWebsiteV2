@@ -87,6 +87,14 @@ iframe {
     flex-direction: column;
 }
 
+#emailLink {
+    display: none;
+}
+
+#submitBtn {
+    margin: 10px 0px 10px 10px;
+}
+
 @media only screen and (max-width: 440px) {
     .formContainer {
         flex-direction: column;

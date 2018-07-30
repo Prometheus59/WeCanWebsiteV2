@@ -14,7 +14,7 @@ export default class Home extends React.Component {
                     personalized service with the best rates and coverage available for your vehicle. Rest easy
                     knowing that all your valuable personal items & assests are insured.
                 </p>
-                <p> WeCan Insurance offers home insurance for many property types including:
+                <p> WeCan Insurance offers home insurance for many property types including: </p>
                     <ul>
                         <li>Houses</li>
                         <li>Condominiums</li>
@@ -24,7 +24,6 @@ export default class Home extends React.Component {
                         <li>Rented Property</li>
                         <li>Antique / Collector Vechicles</li>
                     </ul>
-                </p>
             </div>
         )
     }

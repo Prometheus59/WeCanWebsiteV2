@@ -12,7 +12,7 @@ export default class Auto extends React.Component {
                 <p> Here at WeCan Insurance, we compare quotes with our numerous insurance partners to offer you 
                     personalized service with the best rates and coverage available for your vehicle.
                 </p>
-                <p>We offer insurance for many vehicles including:
+                <p>We offer insurance for many vehicles including: </p>
                     <ul>
                         <li>Cars</li>
                         <li>Motorcycles</li>
@@ -21,7 +21,6 @@ export default class Auto extends React.Component {
                         <li>Motorhomes</li>
                         <li>Antique / Collector Vechicles</li>
                     </ul>
-                </p>
             </div>
         )
     }
