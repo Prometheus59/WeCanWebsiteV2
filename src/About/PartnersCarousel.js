@@ -3,6 +3,7 @@ import Slider from 'react-slick';
 import { Link } from 'react-router-dom';
 
 import aviva from '../images/partners/aviva.png';
+import unica from '../images/partners/unica.png';
 import chubb from '../images/partners/chubb.png'
 import coachman from '../images/partners/coachman.png'
 import economical from '../images/partners/economical.png'
@@ -54,6 +55,9 @@ export default class PartnersCarousel extends React.Component {
         <Slider {...settings}>
           <div>
             <img src={aviva} alt='aviva' />
+          </div>
+          <div>
+            <img src={unica} alt='unica' />
           </div>
           <div>
             <img src={chubb} alt='chubb' />

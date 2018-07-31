@@ -130,6 +130,27 @@
     font-family: 'Roboto', sans-serif;
 }
 
+#partnersList img {
+    max-height: 100px;
+    max-width: 200px;
+    padding-top: 20px;
+    margin: 10px 30px 10px 30px;
+    padding-bottom: 15px;
+}
+
+#partnersList {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: baseline;
+}
+
+#insurancepartners {
+    text-align: center;
+    font-size: 4em;
+}
+
 @media only screen and (max-width: 440px) {
     #partners {
         display: none;
