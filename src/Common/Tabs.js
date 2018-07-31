@@ -8,7 +8,7 @@ import Contact from '../Contact/Contact';
 import Partners from '../About/Partners';
 import Header from './Header';
 import Resources from '../Resources/Resources';
-import { NavLink, Route, Switch } from 'react-router-dom';
+import { Link, Route, Switch } from 'react-router-dom';
 import Sticky from 'react-sticky-el';
 import '../css/Navbar.css';
 
@@ -30,16 +30,16 @@ class TabMenu extends React.Component {
           <Sticky>
             <AppBar position='sticky' id='navBar'>
               <Tabs id='standard' value={value} onChange={this.handleChange}>
-                <Tab label='About' component={NavLink} to='/about' />
-                <Tab label='Services' component={NavLink} to='/services' />
-                <Tab label='Resources' component={NavLink} to='/resources'/>
-                <Tab label='Contact' component={NavLink} to='/contact' />
+                <Tab label='About' component={Link} to='/about' />
+                <Tab label='Services' component={Link} to='/services' />
+                <Tab label='Resources' component={Link} to='/resources'/>
+                <Tab label='Contact' component={Link} to='/contact' />
               </Tabs>
               <Tabs  id='fullwidth' fullWidth value={value} onChange={this.handleChange}>
-                <Tab label='About' component={NavLink} to='/about' />
-                <Tab label='Services' component={NavLink} to='/services' />
-                <Tab label='Resources' component={NavLink} to='/resources'/>
-                <Tab label='Contact' component={NavLink} to='/contact' />
+                <Tab label='About' component={Link} to='/about' />
+                <Tab label='Services' component={Link} to='/services' />
+                <Tab label='Resources' component={Link} to='/resources'/>
+                <Tab label='Contact' component={Link} to='/contact' />
               </Tabs>
             </AppBar>
           </Sticky>
