@@ -7,6 +7,7 @@ import CardContent from '@material-ui/core/CardContent'
 import CardMedia from '@material-ui/core/CardMedia'
 import Button from '@material-ui/core/Button'
 import Typography from '@material-ui/core/Typography'
+import { HashLink } from 'react-router-hash-link';
 
 
 
@@ -42,10 +43,10 @@ function SimpleMediaCard (props) {
         </CardContent>
         <CardActions>
           <Button size='small' color='primary'>
-            Get a Quote
+          <HashLink smooth to='/contact'>Get a Quote</HashLink>
           </Button>
           <Button size='small' color='primary'>
-            Learn More
+            <HashLink smooth to={props.link}>Learn More</HashLink>
           </Button>
         </CardActions>
       </Card>
