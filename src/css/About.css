@@ -155,6 +155,8 @@
     font-size: 4em;
 }
 
+
+
 @media only screen and (max-width: 440px) {
     #partners {
         display: none;
@@ -170,6 +172,15 @@
         color: darkblue;
         text-decoration: none;
         font-family: 'Roboto', sans-serif;
+    }
+    #partnersList {
+        text-align: center;
+    }
+    #partnersList ul {
+        padding: 0px;
+    }
+    #insurancepartners {
+        font-size: 2.5em;
     }
 }
 
