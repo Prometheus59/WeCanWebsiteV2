@@ -13,7 +13,25 @@ import optimum from '../images/partners/optimum.png'
 import perth from '../images/partners/perth.png'
 import rsa from '../images/partners/RSA.png'
 import travelers from '../images/partners/travelers.png'
-
+import zurich from '../images/partners/zurich.png'
+import wynard from '../images/partners/wynard.png'
+import pafco from '../images/partners/pafco.png'
+import nautimax from '../images/partners/nautimax.png'
+import globali from '../images/partners/global.png'
+import encon from '../images/partners/encon.png';
+import pacific from '../images/partners/pacific.png';
+import echelon from '../images/partners/echelon.png';
+import abex from '../images/partners/abex.png';
+import premier from '../images/partners/premier.png';
+import wawanesa from '../images/partners/wawanesa.png';
+import jevco from '../images/partners/jevco.png';
+import guarantee from '../images/partners/guarantee.png';
+import chieftain from '../images/partners/chieftain.png';
+import caa from '../images/partners/caa.png';
+import ace from '../images/partners/ace.png';
+import pembridge from '../images/partners/pembridge.png'
+import liberty from '../images/partners/liberty.png';
+import novex from '../images/partners/novex.png';
 
 
 export default class PartnersCarousel extends React.Component {
@@ -66,10 +84,68 @@ export default class PartnersCarousel extends React.Component {
           </div>
           <div>
             <img src={rsa} alt='rsa' />
-          </div>  
+          </div>
+          <div>
+            <img src={zurich} alt='zurich' />
+          </div>                   
+          <div>
+            <img src={wynard} alt='wynard' />
+          </div>          
+          <div>
+            <img src={pafco} alt='pafco' />
+          </div>          
+          <div>
+            <img src={nautimax} alt='nautimax' />
+          </div>
+          <div>
+            <img src={globali} alt='globali' />
+          </div>
+          <div>
+            <img src={encon} alt='encon' />
+          </div>
+          <div>
+            <img src={pacific} alt='pacific' />
+          </div>
+          <div>
+            <img src={echelon} alt='echelon' />
+          </div>
+          <div>
+            <img src={abex} alt='abex' />
+          </div>
+          <div>
+            <img src={premier} alt='premier' />
+          </div>
+          <div>
+            <img src={wawanesa} alt='wawanesa' />
+          </div>
+          <div>
+            <img src={jevco} alt='jevco' />
+          </div>
+          <div>
+            <img src={guarantee} alt='guarantee' />
+          </div>
+          <div>
+            <img src={chieftain} alt='chieftain' />
+          </div>
+          <div>
+            <img src={caa} alt='caa' />
+          </div>
+          <div>
+            <img src={pembridge} alt='pembridge' />
+          </div> 
+          <div>
+            <img src={ace} alt='ace' />
+          </div>
+          <div>
+            <img src={novex} alt='novex' />
+          </div>
+          <div>
+            <img src={liberty} alt='liberty' />
+          </div>
+
         </Slider>
         <div id='viewPartners'>
-        <Link to='/partners'>See all 31 of our partners</Link>
+          <Link to='/partners'>See all 31 of our partners</Link>
         </div>
       </div>
     );
