@@ -9,17 +9,17 @@ export default class Footer extends React.Component {
       <div className='footer'>
         <div className='mainLinks'>
         <div className='footerHeaders'>
-            <h3><HashLink smooth to='/about#aboutUs'>About</HashLink></h3>
+            <h3><HashLink smooth to='/about#top'>About</HashLink></h3>
             <ul>
-              <li><Link to='/about'>About Us</Link></li>
-              <li><Link to='/contact'>Contact Us</Link></li>
-              <li><Link to='/partners'>Partners</Link></li>
+              <li><HashLink to='/about#parallaxTop'>About Us</HashLink></li>
+              <li><HashLink to='/contact#top'>Contact Us</HashLink></li>
+              <li><HashLink to='/partners#top'>Partners</HashLink></li>
               {/* rel="noopener noreferrer is to stop injection attacks */}
               <li><a href='http://www.soundinsurance.ca' target='_blank' rel="noopener noreferrer">Sound Insurance</a></li>
             </ul>
           </div>
           <div className='footerHeaders'>
-            <h3><HashLink smooth to='/services#ellip'>Services</HashLink></h3>
+            <h3><HashLink smooth to='/services#top'>Services</HashLink></h3>
             <ul>
               <li><HashLink smooth to='/services#auto'>Auto Insurance</HashLink></li>
               <li><HashLink smooth to='/services#home'>Home Insurance</HashLink></li>
@@ -30,7 +30,7 @@ export default class Footer extends React.Component {
           <div className='footerHeaders'>
             <h3><Link to='/resources'>Resources</Link></h3>
             <ul>
-              <li><HashLink to='/resources#gov'>Gov. Links</HashLink></li>
+              <li><Link to='/resources'>Gov. Links</Link></li>
               <li><Link to='/resources'>Downloadable Resources</Link></li>
               <li><Link to='/resources'>FAQs</Link></li>
             </ul>

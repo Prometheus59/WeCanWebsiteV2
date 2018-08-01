@@ -5,7 +5,7 @@ import PaperSheets from './PaperSheets';
 export default class ParallaxEffect extends React.Component {
     render() {
         return (
-            <div>
+            <div id='parallaxTop'>
                 <Parallax
                     blur={2}
                     bgImage={require('../images/placeholder.jpg')}

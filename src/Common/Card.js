@@ -43,7 +43,7 @@ function SimpleMediaCard (props) {
         </CardContent>
         <CardActions>
           <Button size='small' color='primary'>
-          <HashLink smooth to='/contact'>Get a Quote</HashLink>
+          <HashLink smooth to='/contact#top'>Get a Quote</HashLink>
           </Button>
           <Button size='small' color='primary'>
             <HashLink smooth to={props.link}>Learn More</HashLink>

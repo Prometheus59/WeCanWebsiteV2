@@ -10,7 +10,7 @@ const logo = icon;
 export default class Header extends React.Component {
   render() {
     return (
-      <div className='Header'>
+      <div className='Header' id='top'>
         <Link to='/about' className='main'>
         <img className='logo' src={logo} alt='WeCan Logo' />
         <div className='title'>WeCan Insurance</div>

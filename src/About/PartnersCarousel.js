@@ -1,6 +1,6 @@
 import React from 'react';
 import Slider from 'react-slick';
-import { Link } from 'react-router-dom';
+import { HashLink } from 'react-router-hash-link';
 
 import aviva from '../images/partners/aviva.png';
 import unica from '../images/partners/unica.png';
@@ -151,7 +151,7 @@ export default class PartnersCarousel extends React.Component {
 
         </Slider>
         <div id='viewPartners'>
-          <Link to='/partners'>See all 31 of our partners</Link>
+          <HashLink to='/partners#top'>See all 31 of our partners</HashLink>
         </div>
       </div>
     );
