@@ -39,16 +39,18 @@ export default class PartnersCarousel extends React.Component {
   render() {
     var settings = {
       dots: false,
+      draggable: false,
       infinite: true,
       speed: 2000,
       slidesToShow: 9,
       arrows: false,
+      swipe: false,
+      touchMove: false,
       autoplay: true,
       autoplaySpeed: 0,
       pauseOnHover: false,
       cssEase: 'linear',
-      className: 'slides',
-      lazyLoad: 'progressive'
+      className: 'slides'
     };
     return (
       <div id='partners'>

@@ -21,14 +21,17 @@ export default class MobilePartnersCarousel extends React.Component {
     var settings = {
       dots: false,
       infinite: true,
-      speed: 3000,
+      draggable: false,
+      speed: 2000,
+      touchMove: false,
+      swipe: false,
       slidesToShow: 3,
       arrows: false,
       autoplay: true,
       autoplaySpeed: 0,
+      pauseOnHover: false,
       cssEase: 'linear',
-      className: 'slides',
-      lazyLoad: 'progressive'
+      className: 'slides'
     };
     return (
       <div id='mpartners'>
