@@ -4,6 +4,17 @@
     overflow: hidden;
 }
 
+/* React Slick Css */
+.resourceCarousel {
+    max-width: 90%;
+    position: relative;
+    z-index: 2;
+}
+
+.resourceCarouselSlides Paperlink {
+    margin: 10px 10px 10px;
+}
+
 .links {
     display: flex;
     flex-direction: row;

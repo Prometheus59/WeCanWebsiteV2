@@ -29,7 +29,7 @@ export default class HideTemplate extends React.Component {
       <div>
         {this.toggleInstance}
         <div style={style}>
-        {/*Children prop passes children elements directly into their output --> see GovLinks.js for more detail*/}
+        {/*Children prop passes children elements directly into their output --> see Resources.js for more detail*/}
           <div className='links'>{this.props.children}</div>
         </div>
       </div>

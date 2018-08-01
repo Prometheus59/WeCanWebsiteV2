@@ -23,7 +23,7 @@ class SimpleSlider extends React.Component {
     }
     return (
       <Slider {...settings}>
-        <div className='hide'>
+        <div>
           <h2>Auto Insurance</h2>
           <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Officia porro repudiandae culpa corporis explicabo dolor quidem nobis,
@@ -31,7 +31,7 @@ class SimpleSlider extends React.Component {
               Qui vitae accusantium numquam error ut expedita unde. Nam natus impedit
               quis consequuntur eum.</h4>
         </div>
-        <div className='hide'>
+        <div>
           <h2>Home Insurance</h2>
           <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
               Quas autem veritatis id cum sed, earum odit inventore ad iure? 
@@ -40,7 +40,7 @@ class SimpleSlider extends React.Component {
               sint rem magnam pariatur reiciendis quae? Soluta repellat, officia unde
               a ab eligendi porro.</h4>
         </div>
-        <div className='hide'>
+        <div>
           <h2>Commercial Insurance</h2>
           <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex in esse
               rem reiciendis reprehenderit dignissimos odio ea officiis quod quam,
