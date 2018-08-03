@@ -1,194 +1,190 @@
 .about {
-    /*background-image: linear-gradient(rgb(85, 135, 223), #91A8D0) */
+  /*background-image: linear-gradient(rgb(85, 135, 223), #91A8D0) */
 }
 
 #aboutUs {
-    position: relative;
-    text-align: center;
-    font-family: 'Merriweather', serif;
-    overflow: hidden;
-    z-index: -5;
+  position: relative;
+  text-align: center;
+  font-family: "Merriweather", serif;
+  overflow: hidden;
+  z-index: -5;
 }
 
 #aboutUs img {
-    width: 100%;
-    text-align: center;
+  width: 100%;
+  text-align: center;
 }
 
 #aboutUs .centered {
-    position: absolute;
-    top: 22%;
-    left: 30%;
+  position: absolute;
+  top: 22%;
+  left: 30%;
 }
 
 #aboutUs .title {
-    font-size: 500%;
+  font-size: 500%;
 }
 
 #aboutUs .subTitle {
-    font-size: 140%;
+  font-size: 140%;
 }
 
-@media only screen and (max-width:440px) {
-    
-    #aboutUs .centered {
-        padding-top: 0;
-        top: 8%;
-        left: 6%;
-    }
-    #aboutUs .title {
-        font-size: 250%;
-        margin-bottom: 0;
-    }
-    #aboutUs .subTitle {
-        font-size: 120%;
-    }
-    #aboutUs img {
-        height: 200px;
-        text-align: center;
-    }
+@media only screen and (max-width: 440px) {
+  #aboutUs .centered {
+    padding-top: 0;
+    top: 8%;
+    left: 6%;
+  }
+  #aboutUs .title {
+    font-size: 250%;
+    margin-bottom: 0;
+  }
+  #aboutUs .subTitle {
+    font-size: 120%;
+  }
+  #aboutUs img {
+    height: 200px;
+    text-align: center;
+  }
 }
 
 /* Cards */
 
 .MuiTypography-headline-538 {
-    margin-bottom: 12px !important;
+  margin-bottom: 12px !important;
 }
 
 .card {
-    margin-top: 10px;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-evenly;
-    margin-bottom: 20px;
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-bottom: 20px;
 }
 
 .card a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .paper {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-evenly;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-evenly;
 }
 
 /* Parallax */
 .parallax {
-    margin-top: 60px;
-    z-index:-10;
-    height: 400px;
+  margin-top: 60px;
+  z-index: -10;
+  height: 400px;
 }
 
 .parallax .paper {
-    text-align: center;
-    padding-top: 100px;
+  text-align: center;
+  padding-top: 100px;
 }
 
 @media only screen and (max-width: 440px) {
-    .parallax {
-        height: 600px;
-    }
+  .parallax {
+    height: 600px;
+  }
 
-    .parallax .paper {
-        padding-top: 20px;
-    }
+  .parallax .paper {
+    padding-top: 20px;
+  }
 }
 
 /* Infinite Scrolling Carousel - Partners.js */
 
 .slides img {
-    vertical-align: middle;
-    max-height: 50px;
-    max-width: 100px;
-    padding-top: 20px;
-    margin-top: 10px;
-    padding-bottom: 15px;
-    text-align: center;
+  vertical-align: middle;
+  max-height: 50px;
+  max-width: 100px;
+  padding-top: 20px;
+  margin-top: 10px;
+  padding-bottom: 15px;
+  text-align: center;
 }
 
 .slides {
-    z-index: -1;
-
+  z-index: -1;
 }
 
 #mpartners {
-    display: none;
+  display: none;
 }
 
- /* partners link */
+/* partners link */
 
 #viewPartners {
-    text-align:center;
-    text-decoration: none;
-    padding-bottom: 30px;
+  text-align: center;
+  text-decoration: none;
+  padding-bottom: 30px;
 }
 
 #viewPartners a {
-    padding-top: 5;
-    margin-top: 0;
-    color: darkblue;
-    text-decoration: none;
-    font-family: 'Roboto', sans-serif;
+  padding-top: 5;
+  margin-top: 0;
+  color: darkblue;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
 }
 
 #partnersList img {
-    max-height: 100px;
-    max-width: 200px;
-    padding-top: 20px;
-    margin: 10px 30px 10px 30px;
-    padding-bottom: 15px;
+  max-height: 100px;
+  max-width: 200px;
+  padding-top: 20px;
+  margin: 10px 30px 10px 30px;
+  padding-bottom: 15px;
 }
 
 #partnersList {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    align-content: center;
-    align-items: baseline;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-content: center;
+  align-items: baseline;
 }
 
 #insurancepartners {
-    text-align: center;
-    font-size: 4em;
+  text-align: center;
+  font-size: 4em;
 }
 
-
-
 @media only screen and (max-width: 440px) {
-    #partners {
-        display: none;
-    }
-    #mpartners {
-        display: block;
-    }
-    #mviewPartners {
-        text-align: center;
-        margin-top: 10px;
-    }
-    #mviewPartners a {
-        color: darkblue;
-        text-decoration: none;
-        font-family: 'Roboto', sans-serif;
-    }
-    #partnersList {
-        text-align: center;
-    }
-    #partnersList ul {
-        padding: 0px;
-    }
-    #insurancepartners {
-        font-size: 2.5em;
-    }
+  #partners {
+    display: none;
+  }
+  #mpartners {
+    display: block;
+  }
+  #mviewPartners {
+    text-align: center;
+    margin-top: 10px;
+  }
+  #mviewPartners a {
+    color: darkblue;
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+  }
+  #partnersList {
+    text-align: center;
+  }
+  #partnersList ul {
+    padding: 0px;
+  }
+  #insurancepartners {
+    font-size: 2.5em;
+  }
 }
 
 /* Speak / Contact message */
 @media only screen and (max-width: 440px) {
-    #speak {
-        width: 300px;
-        margin-left: auto;
-        margin-right: auto;
-    }
+  #speak {
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }

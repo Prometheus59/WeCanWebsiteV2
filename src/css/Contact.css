@@ -1,131 +1,137 @@
 body {
-    background-color: #8FD8E9;
+  background-color: #8fd8e9;
 }
 
 /* Google reCaptcha Button */
 .g-recaptcha {
-    margin-left: 0px;
-    margin-bottom: 30px;
-    transform:translate(-47px, -10px) scale(0.8, 0.8);
+  margin-left: 0px;
+  margin-bottom: 30px;
+  transform: translate(-47px, -10px) scale(0.8, 0.8);
 }
 
-@media screen and (max-height: 575px){ #rc-imageselect, .g-recaptcha {transform:scale(0.77);-webkit-transform:scale(0.77);transform-origin:0 0;-webkit-transform-origin:0 0;} }
+@media screen and (max-height: 575px) {
+  #rc-imageselect,
+  .g-recaptcha {
+    transform: scale(0.77);
+    -webkit-transform: scale(0.77);
+    transform-origin: 0 0;
+    -webkit-transform-origin: 0 0;
+  }
+}
 
 form {
-    border: solid 3px royalblue;
-    margin-top: 25px;
-    padding: 10px;
-    max-width: 380px;
-    height:90%;
-    overflow: hidden;
-    background-color: whitesmoke;
+  border: solid 3px royalblue;
+  margin-top: 25px;
+  padding: 10px;
+  max-width: 380px;
+  height: 90%;
+  overflow: hidden;
+  background-color: whitesmoke;
 }
-
 
 /* Message Box */
 .MuiFormControl-root-95 {
-    margin-top: 0px !important;
+  margin-top: 0px !important;
 }
 
- textarea {
-    padding: 5px;
-    width: 300px;
-    height: 80px;
-    margin: 3px;
-    border: 1px royalblue solid;
+textarea {
+  padding: 5px;
+  width: 300px;
+  height: 80px;
+  margin: 3px;
+  border: 1px royalblue solid;
 }
-
 
 .section1 {
-    margin-right: 200px;
+  margin-right: 200px;
 }
 
 .section2 {
-    margin-right: 200px;
-    margin-top: 15px;
+  margin-right: 200px;
+  margin-top: 15px;
 }
 
 .section3 {
-    margin-right:0px;
+  margin-right: 0px;
 }
 
 .contact-info {
-    font-size: 90%;
-    display: flex;
-    flex-direction: row;
-    width: 400px;
-    margin-left: auto;
-    margin-right: auto;
+  font-size: 90%;
+  display: flex;
+  flex-direction: row;
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #address {
-    margin-left: 15px;
+  margin-left: 15px;
 }
 
 #hours {
-    margin-left: auto;
-    margin-right: 15px;
-    text-align: center;
+  margin-left: auto;
+  margin-right: 15px;
+  text-align: center;
 }
 
 iframe {
-    width: 550px;
-    height: 400px;
-    margin: 30px 30px 10px 30px;
-    flex-shrink: 2;
+  width: 550px;
+  height: 400px;
+  margin: 30px 30px 10px 30px;
+  flex-shrink: 2;
 }
 
 .formContainer {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    padding-bottom: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-bottom: 20px;
 }
 
 .companyInfo {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 #emailLink {
-    display: none;
+  display: none;
 }
 
 #submitBtn {
-    margin: 10px 0px 10px 10px;
+  margin: 10px 0px 10px 10px;
 }
 
 @media only screen and (max-width: 440px) {
-    .formContainer {
-        flex-direction: column;
-    }
+  .formContainer {
+    flex-direction: column;
+  }
 
-    form {
-        max-width: 95%;
-        overflow: hidden;
-        padding: 0px;
-        background-color: whitesmoke;
-        margin-left: auto;
-        margin-right: auto;
-    }
+  form {
+    max-width: 95%;
+    overflow: hidden;
+    padding: 0px;
+    background-color: whitesmoke;
+    margin-left: auto;
+    margin-right: auto;
+  }
 
-    .gmaps {
-        display: flex;
-        justify-content: center;
-        order: 2;
-    }
+  .gmaps {
+    display: flex;
+    justify-content: center;
+    order: 2;
+  }
 
-    .gmaps iframe {
-        max-width: 95%;
-        height: 450px;
-        margin-top: 20px;
-        margin-left: auto;
-        margin-right: auto;
-    }
+  .gmaps iframe {
+    max-width: 95%;
+    height: 450px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 
-    .contact-info {
-        order: 1;
-        width: 370px;
-        margin-top: 20px;
-    }
+  .contact-info {
+    order: 1;
+    width: 370px;
+    margin-top: 20px;
+  }
 }

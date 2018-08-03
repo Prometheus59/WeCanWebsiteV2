@@ -1,55 +1,55 @@
 .menu {
-    position: relative;
-    top: 20%;
-    background-color: slategrey;
-    overflow: visible;
+  position: relative;
+  top: 20%;
+  background-color: slategrey;
+  overflow: visible;
 }
 
 .menu a {
-    float: left;
-    display: block;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
 }
 
 .menu a:hover {
-    background-color: rgb(94, 94, 94);
-    color: white;
+  background-color: rgb(94, 94, 94);
+  color: white;
 }
 
 .active {
-    background-color: rgb(24, 70, 209);
-    color: white;
+  background-color: rgb(24, 70, 209);
+  color: white;
 }
 
 #navBar {
-    display: block;
-    position: -webkit-sticky !important;
-    position: sticky !important;
-    top: 136 !important;
+  display: block;
+  position: -webkit-sticky !important;
+  position: sticky !important;
+  top: 136 !important;
 }
 
-.sticky{
-    z-index: 20;
+.sticky {
+  z-index: 20;
 }
 
 #fullwidth {
-    display: none;
+  display: none;
 }
 
 #content {
-    min-height: 52vh;
-    overflow: hidden;
+  min-height: 52vh;
+  overflow: hidden;
 }
 
 @media only screen and (max-width: 440px) {
-    #standard {
-        display: none;
-    }
-    #fullwidth {
-        display: block;
-    }
+  #standard {
+    display: none;
+  }
+  #fullwidth {
+    display: block;
+  }
 }
