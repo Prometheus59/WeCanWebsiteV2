@@ -1,27 +1,28 @@
 .carouselSlides {
-    max-width: 80%;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 20px;
-    position: relative;
-    z-index: 2;
+  max-width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  position: relative;
+  z-index: 2;
 }
 
 .mcarouselSlides {
-    display: none !important;
+  display: none !important;
 }
 
-.slick-prev:before, .slick-next:before {
-    font-size: 40px !important;
+.slick-prev:before,
+.slick-next:before {
+  font-size: 40px !important;
 }
 
 @media only screen and (max-width: 440px) {
-    .mcarouselSlides {
-        display: block !important;
-    }
-    .carouselSlides {
-        display: none !important;
-    }
+  .mcarouselSlides {
+    display: block !important;
+  }
+  .carouselSlides {
+    display: none !important;
+  }
 }
 
 /*
@@ -32,29 +33,29 @@ h1 {
 } */
 
 .detailedInsurance {
-    display: flex;
-    flex-direction: column;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    align-items: center
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  align-items: center;
 }
 
 .insuranceType {
-    min-height: 200px;
-    padding: 5px 20px 5px 20px;
-    background: white;
-    margin: 20px 15px 20px 15px;
-    max-width: 1200px;
+  min-height: 200px;
+  padding: 5px 20px 5px 20px;
+  background: white;
+  margin: 20px 15px 20px 15px;
+  max-width: 1200px;
 }
 
 .insuranceType h2 {
-    text-align: center;
-    padding-top: 10px;
-    padding-bottom: 20px;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 20px;
 }
 
 #ellip {
-   /* background: #6D8AF2;
+  /* background: #6D8AF2;
     border-bottom-left-radius: 20% 15%;
     border-bottom-right-radius: 20% 15%; */
 }
