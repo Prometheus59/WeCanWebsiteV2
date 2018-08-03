@@ -40,6 +40,11 @@
     display: none;
 }
 
+#content {
+    min-height: 52vh;
+    overflow: hidden;
+}
+
 @media only screen and (max-width: 440px) {
     #standard {
         display: none;

@@ -6,7 +6,7 @@ import { withStyles } from '@material-ui/core/styles';
 const styles = theme => ({
     button: {
         margin: '0 auto',
-        marginTop: '15px',
+        marginTop: '30px',
         marginBottom: '15px',
         display: 'block',
         fontSize: '1.3em'
