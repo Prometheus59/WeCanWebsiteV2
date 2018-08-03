@@ -5,7 +5,7 @@ import Paper from '@material-ui/core/Paper'
 import Typography from '@material-ui/core/Typography'
 import Button from '@material-ui/core/Button';
 import CardActions from '@material-ui/core/CardActions';
-import { Link } from 'react-router-dom';
+import { HashLink } from 'react-router-hash-link';
 import '../css/About.css';
 
 const styles = theme => ({
@@ -40,7 +40,7 @@ function Speak (props) {
         <br />
         <CardActions >
         <Button className={classes.btn} size="medium" variant='raised'>
-        <Link to='/contact'>Contact</Link>
+        <HashLink to='/contact#top'>Contact</HashLink>
         </Button>
       </CardActions>
       </Paper>

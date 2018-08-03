@@ -5,7 +5,7 @@ import TitleButton from './TitleButton';
 export default class HideTemplate extends React.Component {
   constructor (props) {
     super(props)
-    this.state = { visible: false } // Change to visible
+    this.state = { visible: false }
 
     this.handleChange = this.handleChange.bind(this)
 
