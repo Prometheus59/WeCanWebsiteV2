@@ -38,7 +38,7 @@ export default class Footer extends React.Component {
         </div>
 
         <div className='copyright'>
-            <h5>&#169; 2018 WeCan Insurance</h5> {/*&#169; = copyright symbol*/}
+            <h5>&#169; 2018 WeCan Insurance</h5> {/*&#169; === copyright symbol*/}
         </div>
       </div>
     )
