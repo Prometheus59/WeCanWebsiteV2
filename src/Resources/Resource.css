@@ -15,6 +15,34 @@
   margin: 10px 10px 10px;
 }
 
+#buttonTitles {
+  margin-top: 80px;
+  margin-bottom: 0px;
+}
+
+.MobileResourceCarousel {
+  display: none;
+  max-width: 90%;
+  position: relative;
+  z-index: 2;
+}
+
+.MobileResourceCarousel #minipaper {
+  margin: 0px 5px 0px 5px;
+}
+
+@media only screen and (max-width: 1100px){
+  .resourceCarousel {
+    display: none;
+  }
+  .MobileResourceCarousel {
+    display: block;
+  }
+  .slick-dots {
+    padding-bottom: 5px;
+  }
+}
+
 .links {
   display: flex;
   flex-direction: row;
@@ -23,19 +51,14 @@
   margin-bottom: 21px;
 }
 
-#buttonTitles {
-  margin-top: 80px;
-  margin-bottom: 0px;
-}
 
-.slick-prev, .slick-next {
-  width: auto;
-  height: auto;
-}
+@media only screen and (max-width: 600px) {
 
-@media only screen and (max-width: 440px) {
+  .slick-prev, .slick-next {
+    width: auto;
+    height: auto;
+  }
   .links {
-    flex-direction: column;
     width: 90%;
     margin-right: auto;
     margin-left: auto;
@@ -44,5 +67,9 @@
     width: 300px;
     margin-left: auto;
     margin-right: auto;
+  }
+  #buttonTitles {
+    margin-top: 50px;
+    margin-bottom: 25px;
   }
 }
