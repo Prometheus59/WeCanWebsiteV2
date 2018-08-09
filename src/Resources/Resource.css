@@ -28,6 +28,11 @@
   margin-bottom: 0px;
 }
 
+.slick-prev, .slick-next {
+  width: auto;
+  height: auto;
+}
+
 @media only screen and (max-width: 440px) {
   .links {
     flex-direction: column;
