@@ -5,7 +5,7 @@ import PaperLink from "../Common/PaperLink";
 import "../../node_modules/slick-carousel/slick/slick-theme.css";
 import "../../node_modules/slick-carousel/slick/slick.css";
 
-class Downloadables extends React.Component {
+class MobileDownloadables extends React.Component {
   render() {
     var settings = {
       dots: true,
@@ -46,4 +46,4 @@ class Downloadables extends React.Component {
   }
 }
 
-export default Downloadables;
+export default MobileDownloadables;

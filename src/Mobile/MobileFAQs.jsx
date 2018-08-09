@@ -5,7 +5,7 @@ import PaperLink from "../Common/PaperLink";
 import "../../node_modules/slick-carousel/slick/slick-theme.css";
 import "../../node_modules/slick-carousel/slick/slick.css";
 
-class FAQs extends React.Component {
+class MobileFAQs extends React.Component {
   render() {
     var settings = {
       dots: true,
@@ -44,4 +44,4 @@ class FAQs extends React.Component {
   }
 }
 
-export default FAQs;
+export default MobileFAQs;
