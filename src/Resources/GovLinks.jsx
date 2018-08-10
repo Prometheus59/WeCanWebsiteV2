@@ -19,7 +19,7 @@ class GovLinks extends React.Component {
     };
     return (
       <Slider {...settings}>
-        <div class="resourceCarouselSlides">
+        <div className="resourceCarouselSlides">
           <PaperLink
             title="Auto Insurance"
             message="Visit the Insurance Bureau of Canada's website to understand what's included 
@@ -28,7 +28,7 @@ class GovLinks extends React.Component {
             link="http://www.ibc.ca/on/auto"
           />
         </div>
-        <div class="resourceCarouselSlides">
+        <div className="resourceCarouselSlides">
           <PaperLink
             title="Home Insurance"
             message="Learn what home insurance policies cover, how to buy home insurance,
@@ -36,7 +36,7 @@ class GovLinks extends React.Component {
             link="http://www.ibc.ca/on/home"
           />
         </div>
-        <div class="resourceCarouselSlides">
+        <div className="resourceCarouselSlides">
           <PaperLink
             title="Insurance 101"
             message="Learn the basics of insurance to protect yourself and your property
@@ -44,7 +44,7 @@ class GovLinks extends React.Component {
             link="http://www.ibc.ca/on/insurance-101"
           />
         </div>
-        <div class="resourceCarouselSlides">
+        <div className="resourceCarouselSlides">
           <PaperLink
             title="Insurance 101"
             message="Learn the basics of insurance to protect yourself and your property
