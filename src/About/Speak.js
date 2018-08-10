@@ -39,8 +39,15 @@ function Speak(props) {
         </Typography>
         <br />
         <CardActions>
-          <Button className={classes.btn} size="medium" variant="raised">
-            <HashLink to="/contact#top">Contact</HashLink>
+          <Button
+            className={classes.btn}
+            size="medium"
+            variant="raised"
+            component={HashLink}
+            smooth
+            to="/contact#top"
+          >
+            Contact
           </Button>
         </CardActions>
       </Paper>
