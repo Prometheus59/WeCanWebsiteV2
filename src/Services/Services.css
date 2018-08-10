@@ -16,6 +16,11 @@
   font-size: 40px !important;
 }
 
+.slick-arrow {
+  width: 40px !important;
+  height: 40px !important;
+}
+
 @media only screen and (max-width: 440px) {
   .mcarouselSlides {
     display: block !important;
@@ -55,7 +60,6 @@ h1 {
 }
 
 #ellip {
-  /* background: #6D8AF2;
-    border-bottom-left-radius: 20% 15%;
-    border-bottom-right-radius: 20% 15%; */
+   background: #6D8AF2;
+
 }
