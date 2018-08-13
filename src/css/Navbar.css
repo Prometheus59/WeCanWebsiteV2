@@ -5,6 +5,10 @@
   overflow: visible;
 }
 
+.TabIndicator-colorSecondary-93 {
+  background-color: #3f51b5 !important;
+}
+
 .menu a {
   float: left;
   display: block;
