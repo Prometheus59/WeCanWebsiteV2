@@ -12,7 +12,7 @@ class Downloadables extends React.Component {
       infinite: true,
       speed: 1000,
       arrows: true,
-      slidesToShow: 2,
+      slidesToShow: 3,
       className: "resourceCarousel",
       centerMode: false,
       centerPadding: "20px"
@@ -33,6 +33,13 @@ class Downloadables extends React.Component {
             message="Learn useful information including how to lower your auto insurance premium, what a deductible is,
               and who is covered by your auto insurance policy."
             link="http://assets.ibc.ca/Documents/Brochures/Car-Insurance-Q-and-A.pdf"
+          />
+        </div>
+        <div class="resourceCarouselSlides">
+          <PaperLink
+            title="Link 2"
+            message="Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur eius consequuntur adipisci aliquam, quae error exercitationem sunt illo explicabo voluptates!"
+            link="http://google.ca"
           />
         </div>
         <div class="resourceCarouselSlides">

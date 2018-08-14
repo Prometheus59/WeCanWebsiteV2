@@ -12,7 +12,7 @@ class FAQs extends React.Component {
       infinite: true,
       speed: 1000,
       arrows: true,
-      slidesToShow: 2,
+      slidesToShow: 3,
       className: "resourceCarousel",
       centerMode: false,
       centerPadding: "20px"
@@ -22,6 +22,13 @@ class FAQs extends React.Component {
         <div class="resourceCarouselSlides">
           <PaperLink
             title="Link 1"
+            message="Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur eius consequuntur adipisci aliquam, quae error exercitationem sunt illo explicabo voluptates!"
+            link="http://google.ca"
+          />
+        </div>
+        <div class="resourceCarouselSlides">
+          <PaperLink
+            title="Link 2"
             message="Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur eius consequuntur adipisci aliquam, quae error exercitationem sunt illo explicabo voluptates!"
             link="http://google.ca"
           />
