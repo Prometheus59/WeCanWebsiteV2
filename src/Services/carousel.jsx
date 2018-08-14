@@ -1,13 +1,12 @@
-import React from 'react'
-import Slider from 'react-slick'
-import './Services.css';
+import React from "react";
+import Slider from "react-slick";
+import "./Services.css";
 
-import "../../node_modules/slick-carousel/slick/slick-theme.css"
-import "../../node_modules/slick-carousel/slick/slick.css"
-
+import "../../node_modules/slick-carousel/slick/slick-theme.css";
+import "../../node_modules/slick-carousel/slick/slick.css";
 
 class SimpleSlider extends React.Component {
-  render () {
+  render() {
     var settings = {
       dots: true,
       infinite: true,
@@ -15,45 +14,55 @@ class SimpleSlider extends React.Component {
       autoplaySpeed: 10000,
       arrows: true,
       autoplay: true,
-      className: 'carouselSlides',
+      className: "carouselSlides",
       centerMode: true,
-      centerPadding: '20px',
+      centerPadding: "20px",
       fade: true,
       pauseOnHover: true
-    }
+    };
     return (
       <Slider {...settings}>
         <div>
           <h2>Auto Insurance</h2>
-          <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Officia porro repudiandae culpa corporis explicabo dolor quidem nobis,
-              iusto deserunt pariatur, amet quos tempora corrupti quisquam asperiores.
-              Qui vitae accusantium numquam error ut expedita unde. Nam natus impedit
-              quis consequuntur eum.</h4>
+          <h4>
+            Vehicle insurance in Ontario is not just a preventative measure,
+            it's a<strong> requirement</strong>. If you are caught driving
+            without valid vehicle insurance, you may face fines from $5,000 -
+            $50,000 and risk having your driver's license suspended and vehicle
+            impounded.
+          </h4>
         </div>
         <div>
           <h2>Home Insurance</h2>
-          <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-              Quas autem veritatis id cum sed, earum odit inventore ad iure? 
-              A pariatur praesentium fugiat aspernatur? Illum modi ratione magni
-              amet consequatur veritatis, harum dicta sit obcaecati, voluptas,
-              sint rem magnam pariatur reiciendis quae? Soluta repellat, officia unde
-              a ab eligendi porro.</h4>
+          <h4>
+            A house is often the largest financial investment someone will make
+            in their entire life, so it makes sense to protect that investment
+            from potential disasters. Water damage, theft, fire, crashes from
+            aircraft or automobiles, and explosions are just a few possible
+            reasons to consider purchasing house insurance.
+          </h4>
         </div>
         <div>
           <h2>Commercial Insurance</h2>
-          <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex in esse
-              rem reiciendis reprehenderit dignissimos odio ea officiis quod quam,
-              sunt facere obcaecati, error placeat est adipisci, modi temporibus magnam
-              culpa tenetur? Qui, iure, nesciunt, magni cum libero ratione modi
-              incidunt ipsum non sequi minima cupiditate exercitationem. Ratione
-              similique soluta quos aliquam facere accusantium recusandae enim
-              perspiciatis nostrum qui vel inventore, error ea quibusdam quod 
-              blanditiis harum eos mollitia praesentium maxime, odit laboriosam
-              architecto! Magni eligendi in deleniti sunt saepe?</h4>
+          <h4>
+            Building a business means investing money, time, energy and
+            countless resources. Without commercial insurance, all those
+            investments could dissapear overnight for any number of reasons.
+            Property damage, lawsuits and business fraud are just a few reasons
+            why businesses need commercial insurance.
+          </h4>
+        </div>
+        <div>
+          <h2>Travel Insurance</h2>
+          <h4>
+            Whether you're traveling to another country for a business meeting
+            or taking some time off to vaction, you'll want to protect yourself
+            against unforeseen circumstances that could occur before or during
+            your time abroad.
+          </h4>
         </div>
       </Slider>
-    )
+    );
   }
 }
 
