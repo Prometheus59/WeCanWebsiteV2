@@ -1,10 +1,6 @@
 import React from "react";
 import SimpleSlider from "./carousel";
 import "./Services.css";
-import Auto from "./auto";
-import Home from "./home";
-import Commercial from "./commercial";
-import Travel from "./travel";
 import MobileSimpleSlider from "../Mobile/MobileCarousel";
 import ServiceTemplate from "./ServiceTemplate";
 
