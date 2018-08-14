@@ -14,7 +14,7 @@ function PaperSheets(props) {
       />
       <PaperSheet
         title="We Can Help"
-        message="We offer a personalized touch with all of our brokerage services, so don't hesitate to reach out to us."
+        message="We offer a personalized touch with all of our brokerage services. Please don't hesitate to reach out to us with any questions or concerns you may have"
       />
     </div>
   );
