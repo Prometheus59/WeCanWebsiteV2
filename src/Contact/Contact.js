@@ -1,19 +1,20 @@
-import React from 'react'
-import BizInfo from './BizInfo'
-import Gmaps from './Gmaps'
-import TextFields from './materialForm'
+import React from "react";
+import BizInfo from "./BizInfo";
+import Gmaps from "./Gmaps";
+import WeChat from "./Wechat";
+import TextFields from "./materialForm";
 
 export default class Contact extends React.Component {
-  render () {
+  render() {
     return (
-      <div className='formContainer'>
+      <div className="formContainer">
         <TextFields />
-        <div className='companyInfo'>
+        <div className="companyInfo">
           <Gmaps />
           <BizInfo />
         </div>
-
+        <WeChat />
       </div>
-    )
+    );
   }
 }

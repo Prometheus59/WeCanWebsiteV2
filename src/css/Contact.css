@@ -2,23 +2,6 @@ body {
   background-color: #8fd8e9;
 }
 
-/* Google reCaptcha Button */
-.g-recaptcha {
-  margin-left: 0px;
-  margin-bottom: 30px;
-  transform: translate(-47px, -10px) scale(0.8, 0.8);
-}
-
-@media screen and (max-height: 575px) {
-  #rc-imageselect,
-  .g-recaptcha {
-    transform: scale(0.77);
-    -webkit-transform: scale(0.77);
-    transform-origin: 0 0;
-    -webkit-transform-origin: 0 0;
-  }
-}
-
 form {
   border: solid 3px royalblue;
   margin-top: 25px;
@@ -59,19 +42,36 @@ textarea {
   font-size: 90%;
   display: flex;
   flex-direction: row;
-  width: 400px;
+  max-width: 700px;
   margin-left: auto;
   margin-right: auto;
 }
 
 #address {
   margin-left: 15px;
+  margin-right: 40px;
 }
 
 #hours {
-  margin-left: auto;
-  margin-right: 15px;
+  margin-left: 40px;
+  margin-right: 10px;
   text-align: center;
+}
+
+#wechat {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#wechatlogo {
+  display: block;
+  max-width: 100px;
+  max-height: 100px;
+  width: auto;
+  height: auto;
+  margin-top: 20px;
 }
 
 iframe {
@@ -101,13 +101,13 @@ iframe {
   margin: 10px 0px 10px 10px;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1100px) {
   .formContainer {
     flex-direction: column;
   }
 
   form {
-    max-width: 70%;
+    max-width: 400px;
     overflow: hidden;
     padding: 0px;
     background-color: whitesmoke;
@@ -115,10 +115,14 @@ iframe {
     margin-right: auto;
   }
 
+  .companyInfo {
+    order: 3;
+  }
+
   .gmaps {
     display: flex;
     justify-content: center;
-    order: 2;
+    order: 4;
   }
 
   .gmaps iframe {
@@ -131,8 +135,25 @@ iframe {
 
   .contact-info {
     order: 1;
-    width: 370px;
+    max-width: 600px;
     margin-top: 20px;
+  }
+
+  #wechat {
+    order: 2;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  #wechatlogo {
+    display: block;
+    max-width: 100px;
+    max-height: 100px;
+    width: auto;
+    height: auto;
+    margin-top: 10px;
   }
 }
 
