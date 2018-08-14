@@ -5,16 +5,16 @@ function PaperSheets(props) {
   return (
     <div className="paper">
       <PaperSheet
-        title="Our Goal"
-        message="Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur eius consequuntur adipisci aliquam, quae error exercitationem sunt illo explicabo voluptates!"
+        title="What We Do"
+        message="We compare rates across all our insurance partners to give you the absolute best rate possible for your insurance needs."
       />
       <PaperSheet
-        title="What We Do"
-        message="Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur eius consequuntur adipisci aliquam, quae error exercitationem sunt illo explicabo voluptates!"
+        title="Our Goal"
+        message="We aim to provide peace of mind knowing that should an insurable incident occur, your possessions and property will be restored to their full value."
       />
       <PaperSheet
         title="We Can Help"
-        message="Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur eius consequuntur adipisci aliquam, quae error exercitationem sunt illo explicabo voluptates!"
+        message="We offer a personalized touch with all of our brokerage services, so don't hesitate to reach out to us."
       />
     </div>
   );
