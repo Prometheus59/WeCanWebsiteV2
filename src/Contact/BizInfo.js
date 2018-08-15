@@ -12,8 +12,11 @@ export default class BizInfo extends React.Component {
     return (
       <div className="contact-info">
         <div id="address">
-          Call/Text: (647) 949 - 4241
-          <br /> {x + y + z + at + a + b + c}
+          <a href={"tel:6479494241"}>Call/Text: (647) 949 - 4241</a>
+          <br />
+          <a href={"mailto:" + x + y + z + at + a + b + c}>
+            {x + y + z + at + a + b + c}
+          </a>
           <br /> Fax: (416) 756 - 1635
           <br />
         </div>

@@ -139,6 +139,10 @@ iframe {
     margin-top: 20px;
   }
 
+  #hours {
+    margin-left: 0;
+  }
+
   #wechat {
     order: 2;
     margin-top: 10px;
