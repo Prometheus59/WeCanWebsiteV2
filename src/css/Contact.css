@@ -52,6 +52,11 @@ textarea {
   margin-right: 40px;
 }
 
+#address a {
+  color: darkblue;
+  text-decoration: none;
+  }
+
 #hours {
   margin-left: 40px;
   margin-right: 10px;
