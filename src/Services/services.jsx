@@ -76,7 +76,7 @@ export default class Services extends React.Component {
               items={[]}
             />
           </div>
-          <div id="trave">
+          <div id="travel">
             <ServiceTemplate
               title="Travel Insurance"
               message="Whether you're traveling to another country for a business meeting or taking some
