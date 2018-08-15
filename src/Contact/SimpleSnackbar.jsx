@@ -19,13 +19,18 @@ class SimpleSnackbar extends React.Component {
     open: false,
   };
 
+
+
+
   handleClick = (event) => {
     this.setState({ open: true });
     event.preventDefault();
     window.setTimeout(function () {
       document.getElementById('emailLink').click();
-      document.location.reload();
-    }, 3000);
+      window.setTimeout(function () {
+        document.location.reload();
+      }, 4000);
+    }, 2000);
   };
 
   handleClose = (event, reason) => {
@@ -64,7 +69,7 @@ class SimpleSnackbar extends React.Component {
             horizontal: 'left',
           }}
           open={this.state.open}
-          autoHideDuration={6000}
+          autoHideDuration={7000}
           onClose={this.handleClose}
           ContentProps={{
             'aria-describedby': 'message-id',
