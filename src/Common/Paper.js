@@ -11,7 +11,8 @@ const styles = theme => ({
     marginTop: theme.spacing.unit * 3,
     marginBottom: theme.spacing.unit * 3,
     maxWidth: 300,
-    marginRight: "10px"
+    marginRight: "20px",
+    marginLeft: "20px"
   })
 });
 
