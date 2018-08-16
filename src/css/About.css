@@ -81,7 +81,7 @@
 
 /* Parallax */
 .parallax {
-  z-index: -10;
+  z-index: 2;
 }
 
 .parallax .paper {
