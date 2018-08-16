@@ -1,6 +1,5 @@
 import React from "react";
 import { Parallax } from "react-parallax";
-import PaperSheets from "./PaperSheets";
 import Speak from "./Speak";
 
 export default class ParallaxEffect extends React.Component {

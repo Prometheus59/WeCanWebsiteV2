@@ -6,7 +6,6 @@ import SimpleMediaCards from "./Cards";
 import ParallaxEffect from "./Parallax";
 import PartnersCarousel from "./PartnersCarousel";
 import MobilePartnersCarousel from "../Mobile/MobilePartnersCarousel";
-import Speak from "./Speak";
 import PaperSheets from "./PaperSheets";
 
 function Page() {

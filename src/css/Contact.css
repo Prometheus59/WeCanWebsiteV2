@@ -72,6 +72,7 @@ textarea {
   border: 3px royalblue solid;
   background-color: rgb(89, 122, 240);
   color: white;
+  min-width: 200px;
   height: 70%;
 }
 

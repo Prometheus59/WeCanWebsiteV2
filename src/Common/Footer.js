@@ -30,7 +30,7 @@ export default class Footer extends React.Component {
           <div className='footerHeaders'>
             <h3><Link to='/resources'>Resources</Link></h3>
             <ul>
-              <li><Link to='/resources'>Gov. Links</Link></li>
+              <li><Link to='/resources'>IBC</Link></li>
               <li><Link to='/resources'>Downloadable Resources</Link></li>
               <li><Link to='/resources'>FAQs</Link></li>
             </ul>
