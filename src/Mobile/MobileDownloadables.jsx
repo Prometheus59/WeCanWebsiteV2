@@ -20,6 +20,15 @@ class MobileDownloadables extends React.Component {
       <Slider {...settings}>
         <div class="MobileResourceCarouselSlides">
           <PaperLink
+            title="Home Maintenance Checklist"
+            message="Spending time now to maintain your home can save lots of money and frustrations
+            in the future. Click the link below to download a home maintenance schedule to keep a
+            record of completed home maintenance tasks."
+            link="http://google.ca"
+          />
+        </div>
+        <div class="MobileResourceCarouselSlides">
+          <PaperLink
             title="Auto Insurance Explained"
             message="Understanding your auto insurance policy is extremely important.
                Click the link below to download Insurnace Bureau of Canada's brochure for more information."
@@ -36,9 +45,18 @@ class MobileDownloadables extends React.Component {
         </div>
         <div class="MobileResourceCarouselSlides">
           <PaperLink
-            title="Link 2"
-            message="Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur eius consequuntur adipisci aliquam, quae error exercitationem sunt illo explicabo voluptates!"
-            link="http://google.ca"
+            title="Home Inventory Form"
+            message="In the event of a burglary, fire, or some other unfortunate event, an inventory 
+            of possessions and their value will be very helpful to your insurer and the police. Download
+             the form below to get started tracking your possessions."
+            link="http://www.soundinsurance.ca/Common/insurance-forms/household_inventory.pdf"
+          />
+        </div>
+        <div class="MobileResourceCarouselSlides">
+          <PaperLink
+            title="Brochures"
+            message="Download PDFs with more detailed information about home, business and auto insurance."
+            link="http://www.ibc.ca/nb/resources/consumer-resources/brochures"
           />
         </div>
       </Slider>

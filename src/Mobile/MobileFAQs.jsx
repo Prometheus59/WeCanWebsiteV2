@@ -20,23 +20,35 @@ class MobileFAQs extends React.Component {
       <Slider {...settings}>
         <div class="MobileResourceCarouselSlides">
           <PaperLink
-            title="Link 1"
-            message="Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur eius consequuntur adipisci aliquam, quae error exercitationem sunt illo explicabo voluptates!"
+            title="Glossary of terms"
+            message="The definitions appearing in this Glossary are provided solely for general
+             informational purposes. They are not intended to be complete descriptions of all terms,
+              conditions and exclusions applicable to the products and services defined."
+            link="http://www.soundinsurance.ca/Tools-Resources/Glossary-Of-Terms"
+          />
+        </div>
+        <div class="MobileResourceCarouselSlides">
+          <PaperLink
+            title="Claims"
+            message="Emergency Toll Free Numbers for our insurance partners"
+            link="http://www.soundinsurance.ca/Tools-Resources/Claims"
+          />
+        </div>
+        <div class="MobileResourceCarouselSlides">
+          <PaperLink
+            title="Insurance Tips"
+            message="Please click on the links below to view some handy insurance tips we 
+            have assembled. As always, our staff will be happy to provide you with all of the 
+            information you need about the coverage we provide."
             link="http://google.ca"
           />
         </div>
         <div class="MobileResourceCarouselSlides">
           <PaperLink
-            title="Link 2"
-            message="Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur eius consequuntur adipisci aliquam, quae error exercitationem sunt illo explicabo voluptates!"
-            link="http://google.ca"
-          />
-        </div>
-        <div class="MobileResourceCarouselSlides">
-          <PaperLink
-            title="Link 2"
-            message="Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur eius consequuntur adipisci aliquam, quae error exercitationem sunt illo explicabo voluptates!"
-            link="http://google.ca"
+            title="Sound Insurance Web Links"
+            message="Click the link below to find insurance resources links, insurance 
+            association links, publications, safety links, financial links and more."
+            link="http://www.soundinsurance.ca/Tools-Resources/Web-Links"
           />
         </div>
       </Slider>

@@ -38,10 +38,11 @@ class GovLinks extends React.Component {
         </div>
         <div className="resourceCarouselSlides">
           <PaperLink
-            title="Insurance 101"
-            message="Learn the basics of insurance to protect yourself and your property
-            when buying a home, driving a car or starting a business."
-            link="http://www.ibc.ca/on/insurance-101"
+            title="Business Insurance"
+            message="Learn how to insure your business to protect it from potentially
+             major threats. Click the link below to gain a deeper understanding of risk
+             management, deductibles, and policy limitations."
+            link="http://www.ibc.ca/nb/business/business-insurance-coverage"
           />
         </div>
         <div className="resourceCarouselSlides">
