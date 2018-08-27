@@ -2,7 +2,7 @@ import React from "react";
 import AppBar from "@material-ui/core/AppBar";
 import Tabs from "@material-ui/core/Tabs";
 import Tab from "@material-ui/core/Tab";
-import { withStyles } from '@material-ui/core/styles';
+import { withStyles } from "@material-ui/core/styles";
 import About from "../About/About";
 import Services from "../Services/services";
 import Contact from "../Contact/Contact";
@@ -53,6 +53,7 @@ class TabMenu extends React.Component {
               fullWidth
               value={value}
               onChange={this.handleChange}
+              classes={{ indicator: classes.tabsIndicator }}
             >
               <Tab label="About" component={Link} to="/about" />
               <Tab label="Services" component={Link} to="/services" />
@@ -76,4 +77,4 @@ class TabMenu extends React.Component {
   }
 }
 
-export default withStyles (styles)(TabMenu);
+export default withStyles(styles)(TabMenu);
