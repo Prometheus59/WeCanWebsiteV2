@@ -18,7 +18,7 @@ class MobileGovLinks extends React.Component {
     };
     return (
       <Slider {...settings}>
-        <div class="MobileResourceCarouselSlides">
+        <div className="MobileResourceCarouselSlides">
           <PaperLink
             title="Auto Insurance"
             message="Visit the Insurance Bureau of Canada's website to understand what's included 
@@ -27,7 +27,7 @@ class MobileGovLinks extends React.Component {
             link="http://www.ibc.ca/on/auto"
           />
         </div>
-        <div class="MobileResourceCarouselSlides">
+        <div className="MobileResourceCarouselSlides">
           <PaperLink
             title="Home Insurance"
             message="Learn what home insurance policies cover, how to buy home insurance,
@@ -44,7 +44,7 @@ class MobileGovLinks extends React.Component {
             link="http://www.ibc.ca/nb/business/business-insurance-coverage"
           />
         </div>
-        <div class="MobileResourceCarouselSlides">
+        <div className="MobileResourceCarouselSlides">
           <PaperLink
             title="Insurance 101"
             message="Learn the basics of insurance to protect yourself and your property

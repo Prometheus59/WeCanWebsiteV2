@@ -19,7 +19,7 @@ class Downloadables extends React.Component {
     };
     return (
       <Slider {...settings}>
-        <div class="resourceCarouselSlides">
+        <div className="resourceCarouselSlides">
           <PaperLink
             title="Auto Insurance Explained"
             message="Understanding your auto insurance policy is extremely important.
@@ -28,7 +28,7 @@ class Downloadables extends React.Component {
             link="http://assets.ibc.ca/Documents/Brochures/ON-Auto-Ins-Explained.pdf"
           />
         </div>
-        <div class="resourceCarouselSlides">
+        <div className="resourceCarouselSlides">
           <PaperLink
             title="Car Insurance Q&A"
             message="Learn useful information including how to lower your auto insurance premium,
@@ -36,7 +36,7 @@ class Downloadables extends React.Component {
             link="http://assets.ibc.ca/Documents/Brochures/Car-Insurance-Q-and-A.pdf"
           />
         </div>
-        <div class="resourceCarouselSlides">
+        <div className="resourceCarouselSlides">
           <PaperLink
             title="Home Maintenance Checklist"
             message="Spending time now to maintain your home can save lots of money and frustrations
@@ -45,7 +45,7 @@ class Downloadables extends React.Component {
             link="http://google.ca"
           />
         </div>
-        <div class="resourceCarouselSlides">
+        <div className="resourceCarouselSlides">
           <PaperLink
             title="Home Inventory Form"
             message="In the event of a burglary, fire, or some other unfortunate event, an inventory 
@@ -54,7 +54,7 @@ class Downloadables extends React.Component {
             link="http://www.soundinsurance.ca/Common/insurance-forms/household_inventory.pdf"
           />
         </div>
-        <div class="resourceCarouselSlides">
+        <div className="resourceCarouselSlides">
           <PaperLink
             title="Brochures"
             message="Download PDFs with more detailed information about home, business and auto insurance."

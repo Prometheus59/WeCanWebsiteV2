@@ -25,7 +25,6 @@ const styles = theme => ({
 
 function ServiceTemplate(props) {
   const { classes } = props;
-
   const items = props.items;
   const listItems = items.map(list => <li>{list}</li>);
 

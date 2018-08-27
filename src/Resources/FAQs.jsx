@@ -19,7 +19,7 @@ class FAQs extends React.Component {
     };
     return (
       <Slider {...settings}>
-        <div class="resourceCarouselSlides">
+        <div className="resourceCarouselSlides">
           <PaperLink
             title="Glossary of terms"
             message="The definitions appearing in this Glossary are provided solely for general
@@ -28,7 +28,7 @@ class FAQs extends React.Component {
             link="http://www.soundinsurance.ca/Tools-Resources/Glossary-Of-Terms"
           />
         </div>
-        <div class="resourceCarouselSlides">
+        <div className="resourceCarouselSlides">
           <PaperLink
             title="Insurance Tips"
             message="Please click on the links below to view some handy insurance tips we 
@@ -37,14 +37,14 @@ class FAQs extends React.Component {
             link="http://google.ca"
           />
         </div>
-        <div class="resourceCarouselSlides">
+        <div className="resourceCarouselSlides">
           <PaperLink
             title="Claims"
             message="Emergency Toll Free Numbers for our insurance partners"
             link="http://www.soundinsurance.ca/Tools-Resources/Claims"
           />
         </div>
-        <div class="resourceCarouselSlides">
+        <div className="resourceCarouselSlides">
           <PaperLink
             title="Sound Insurance Web Links"
             message="Click the link below to find insurance resources links, insurance 
