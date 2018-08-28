@@ -55,7 +55,7 @@ textarea {
 #address a {
   color: darkblue;
   text-decoration: none;
-  }
+}
 
 #hours {
   margin-left: 40px;
@@ -163,7 +163,7 @@ iframe {
     margin-left: auto;
     margin-right: auto;
   }
-  
+
   #wechatlogo {
     display: block;
     max-width: 100px;
