@@ -11,7 +11,7 @@ export default class Footer extends React.Component {
         <div className='footerHeaders'>
             <h3><HashLink smooth to='/about#top'>About</HashLink></h3>
             <ul>
-              <li><HashLink to='/about#parallaxTop'>About Us</HashLink></li>
+              <li><HashLink to='/about#aboutUs'>About Us</HashLink></li>
               <li><HashLink to='/contact#top'>Contact Us</HashLink></li>
               <li><HashLink to='/partners#top'>Partners</HashLink></li>
               {/* rel="noopener noreferrer is to stop injection attacks */}
