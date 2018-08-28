@@ -65,11 +65,11 @@ class TabMenu extends React.Component {
         <div id="content">
           <Switch>
             <Route exact path="/" component={About} />
-            <Route path="/services" component={Services} />
             <Route path="/about" component={About} />
+            <Route path="/partners" component={Partners} />
+            <Route path="/services" component={Services} />
             <Route path="/resources" component={Resources} />
             <Route path="/contact" component={Contact} />
-            <Route path="/partners" component={Partners} />
           </Switch>
         </div>
       </div>
