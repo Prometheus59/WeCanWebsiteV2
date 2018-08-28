@@ -3,16 +3,7 @@
 
 
 ###   URL
-www.wecaninsurance.ca
-
-
-Future Plans for Website:
-
-    - [x] Content added 
-    - [x] Mobile Responsive
-    - [x] Email functionality
-    - [] Animations
-    - [] Styled-Components  (remove .css files)
+www.wecanins.ca
 
 ### Author
 [Ryan Karumanchery](mailto:ryankarumanchery@gmail.com)
