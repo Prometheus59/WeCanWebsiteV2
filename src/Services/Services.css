@@ -30,13 +30,6 @@
   }
 }
 
-/*
-h1 {
-    padding: 50px;
-    margin-left: 50px;
-    margin-top: 0px;
-} */
-
 .detailedInsurance {
   display: flex;
   flex-direction: column;
@@ -60,7 +53,6 @@ h1 {
 }
 
 #ellip {
-   background: rgb(89, 122, 240);
-   color: white;
-
+  background: rgb(89, 122, 240);
+  color: white;
 }
