@@ -64,7 +64,7 @@
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: space-around;
   margin-bottom: 20px;
 }
 
@@ -77,7 +77,7 @@
   align-items: center;
   flex-wrap: nowrap;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: space-around;
 }
 
 /* Parallax */

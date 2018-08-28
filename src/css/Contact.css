@@ -95,7 +95,7 @@ iframe {
 .formContainer {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: space-around;
   padding-bottom: 20px;
 }
 
