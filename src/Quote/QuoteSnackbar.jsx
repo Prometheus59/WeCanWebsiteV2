@@ -51,7 +51,7 @@ class QuoteSnackbar extends React.Component {
     return (
       <div>
         <Button
-          id="submitBtn"
+          id="quoteSubmitBtn"
           type="submit"
           variant="contained"
           value="submit"

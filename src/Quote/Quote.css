@@ -1,0 +1,9 @@
+.quoteInput {
+    text-align: center;
+}
+
+#quoteSubmitBtn {
+    margin-top: 35px;
+    width: 15vw;
+    margin-bottom: 20px;
+}

@@ -3,12 +3,14 @@ import PropTypes from "prop-types";
 import { withStyles } from "@material-ui/core/styles";
 import TextField from "@material-ui/core/TextField";
 import QuoteSnackbar from "./QuoteSnackbar";
+import "./Quote.css";
 
 const styles = theme => ({
   container: {
     display: "flex",
     flexWrap: "wrap",
-    maxWidth: "800px"
+    maxWidth: "700px",
+    margin: "40px auto 40px auto"
   },
   textField: {
     marginLeft: theme.spacing.unit,
@@ -50,7 +52,7 @@ class AutoQuote extends React.Component {
         autoComplete="off"
         onSubmit={this.handleSubmit}
       >
-        <div className="section1">
+        <div className="quoteInput">
           <TextField
             style={{ width: 500 }}
             id="use"
@@ -117,30 +119,30 @@ class AutoQuote extends React.Component {
             className={classes.textField}
             margin="normal"
           />
-        </div>
 
-        <QuoteSnackbar
-          subject="Auto Quote Request"
-          body={
-            "Use of vehicle: " +
-            this.state.use +
-            "%0D%0A" +
-            "Car Info: " +
-            this.state.carInfo +
-            "%0D%0A" +
-            "Address: " + 
-            this.state.address +
-            "%0D%0A" +
-            "Driver Info: " +
-            this.state.driverInfo +
-            "%0D%0A" +
-            "Accident Info: " +
-            this.state.accident +
-            "%0D%0A" +
-            "Commute Distance (one way)" +
-            this.state.cdist
-          }
-        />
+          <QuoteSnackbar
+            subject="Auto Quote Request"
+            body={
+              "Use of vehicle: " +
+              this.state.use +
+              "%0D%0A" +
+              "Car Info: " +
+              this.state.carInfo +
+              "%0D%0A" +
+              "Address: " +
+              this.state.address +
+              "%0D%0A" +
+              "Driver Info: " +
+              this.state.driverInfo +
+              "%0D%0A" +
+              "Accident Info: " +
+              this.state.accident +
+              "%0D%0A" +
+              "Commute Distance (one way)" +
+              this.state.cdist
+            }
+          />
+        </div>
       </form>
     );
   }
