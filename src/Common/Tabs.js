@@ -77,7 +77,7 @@ class TabMenu extends React.Component {
             <Route path="/about" component={About} />
             <Route path="/partners" component={Partners} />
             <Route path="/services" component={Services} />
-            <Route path="/quote" component={Quote} />
+            <Route exact path="/quote" component={Quote} />
             <Route path="/quote/auto" component={AutoQuote} />
             <Route path="/quote/boat" component={BoatQuote} />
             <Route path="/quote/cottage" component={CottageQuote} />
