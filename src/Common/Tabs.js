@@ -12,6 +12,13 @@ import Resources from "../Resources/Resources";
 import { Link, Route, Switch } from "react-router-dom";
 import Sticky from "react-sticky-el";
 import "../css/Navbar.css";
+import Quote from "../Quote/MainQuote";
+import AutoQuote from "../Quote/AutoQuote";
+import BoatQuote from "../Quote/BoatQuote";
+import CottageQuote from "../Quote/CottageQuote";
+import RentalQuote from "../Quote/RentalQuote";
+import HomeQuote from "../Quote/HomeQuote";
+import VacantQuote from "../Quote/CottageQuote";
 
 const styles = theme => ({
   tabsIndicator: {
@@ -45,6 +52,7 @@ class TabMenu extends React.Component {
             >
               <Tab label="About" component={Link} to="/about" />
               <Tab label="Services" component={Link} to="/services" />
+              <Tab label="Quote" component={Link} to="/quote" />
               <Tab label="Resources" component={Link} to="/resources" />
               <Tab label="Contact" component={Link} to="/contact" />
             </Tabs>
@@ -57,6 +65,7 @@ class TabMenu extends React.Component {
             >
               <Tab label="About" component={Link} to="/about" />
               <Tab label="Services" component={Link} to="/services" />
+              <Tab label="Quote" component={Link} to="/quote" />
               <Tab label="Resources" component={Link} to="/resources" />
               <Tab label="Contact" component={Link} to="/contact" />
             </Tabs>
@@ -68,6 +77,13 @@ class TabMenu extends React.Component {
             <Route path="/about" component={About} />
             <Route path="/partners" component={Partners} />
             <Route path="/services" component={Services} />
+            <Route path="/quote" component={Quote} />
+            <Route path="/quote/auto" component={AutoQuote} />
+            <Route path="/quote/boat" component={BoatQuote} />
+            <Route path="/quote/cottage" component={CottageQuote} />
+            <Route path="/quote/home" component={HomeQuote} />
+            <Route path="/quote/rental" component={RentalQuote} />
+            <Route path="/quote/vacant" component={VacantQuote} />
             <Route path="/resources" component={Resources} />
             <Route path="/contact" component={Contact} />
           </Switch>
