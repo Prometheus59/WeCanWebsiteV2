@@ -124,8 +124,8 @@ class RentalQuote extends React.Component {
             className={classes.textField}
             margin="normal"
           />
-                   
-                   <TextField
+
+          <TextField
             style={{ width: 500 }}
             id="manager"
             label="Who manages the rental property?"
@@ -136,7 +136,7 @@ class RentalQuote extends React.Component {
             className={classes.textField}
             margin="normal"
           />
-                    <TextField
+          <TextField
             style={{ width: 500 }}
             id="units"
             label="How many self-contained units in this house?"
@@ -147,7 +147,7 @@ class RentalQuote extends React.Component {
             className={classes.textField}
             margin="normal"
           />
-                    <TextField
+          <TextField
             style={{ width: 500 }}
             id="room"
             label="Do you want to rent by rooms?"
@@ -158,7 +158,7 @@ class RentalQuote extends React.Component {
             className={classes.textField}
             margin="normal"
           />
-                    <TextField
+          <TextField
             style={{ width: 500 }}
             id="quantity"
             label="How many families are you renting to?"
@@ -169,7 +169,7 @@ class RentalQuote extends React.Component {
             className={classes.textField}
             margin="normal"
           />
-                    <TextField
+          <TextField
             style={{ width: 500 }}
             id="student"
             label="Do you want to rent to students?"
@@ -214,7 +214,7 @@ class RentalQuote extends React.Component {
               "Renting to students: " +
               this.state.student +
               "%0D%0A" +
-              "Leasing to a family or subletting: " + 
+              "Leasing to a family or subletting: " +
               this.state.lease
             }
           />
