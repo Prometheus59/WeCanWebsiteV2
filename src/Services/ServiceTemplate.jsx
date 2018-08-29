@@ -10,7 +10,7 @@ const styles = theme => ({
     paddingBottom: 16,
     marginTop: theme.spacing.unit * 3,
     marginBottom: theme.spacing.unit * 3,
-    Width: '80%',
+    width: '90vw',
     maxWidth: '1625px',
     marginRight: 'auto',
     marginLeft: 'auto',
