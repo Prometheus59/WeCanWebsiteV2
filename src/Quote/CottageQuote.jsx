@@ -63,7 +63,7 @@ class CottageQuote extends React.Component {
             style={{ width: 500 }}
             id="name"
             label="All buyer's name(s) and date(s) of birth"
-            placeholder=""
+            placeholder="所有买方的姓名和出生日期"
             multiline
             value={this.state.value}
             onChange={this.handleChange("name")}
@@ -74,7 +74,7 @@ class CottageQuote extends React.Component {
             style={{ width: 500 }}
             id="address"
             label="Detailed address of the cottage including postal code"
-            placeholder=""
+            placeholder="小屋的详细地址，包括邮政编码"
             multiline
             value={this.state.value}
             onChange={this.handleChange("address")}
@@ -85,7 +85,7 @@ class CottageQuote extends React.Component {
             style={{ width: 500 }}
             id="mortgage"
             label="What is the mortgage bank name?"
-            placeholder="你的居住地址包括postal code"
+            placeholder="抵押银行名称是什么?"
             value={this.state.value}
             onChange={this.handleChange("mortgage")}
             className={classes.textField}
@@ -95,7 +95,7 @@ class CottageQuote extends React.Component {
             style={{ width: 500 }}
             id="year"
             label="What year was the cottage built?"
-            placeholder=""
+            placeholder="小屋建于哪一年？"
             value={this.state.value}
             onChange={this.handleChange("year")}
             className={classes.textField}
@@ -105,7 +105,7 @@ class CottageQuote extends React.Component {
             style={{ width: 500 }}
             id="struct"
             label="How many detached structures & size of each structure (ft2)"
-            placeholder=""
+            placeholder="每个结构的分离结构和大小（ft2)"
             multiline
             value={this.state.value}
             onChange={this.handleChange("struct")}
@@ -116,7 +116,7 @@ class CottageQuote extends React.Component {
             style={{ width: 500 }}
             id="basement"
             label="Is there a basement?"
-            placeholder=""
+            placeholder="有地下室吗?"
             value={this.state.value}
             onChange={this.handleChange("basement")}
             className={classes.textField}
@@ -126,7 +126,7 @@ class CottageQuote extends React.Component {
             style={{ width: 500 }}
             id="size"
             label="How many stories is the cottage?"
-            placeholder=""
+            placeholder="小屋有多少故事？"
             value={this.state.value}
             onChange={this.handleChange("size")}
             className={classes.textField}
@@ -136,7 +136,7 @@ class CottageQuote extends React.Component {
             style={{ width: 500 }}
             id="winter"
             label="Is each detached structure winterized?"
-            placeholder=""
+            placeholder="每个独立的结构是否过冬"
             multiline
             value={this.state.value}
             onChange={this.handleChange("winter")}
@@ -147,7 +147,7 @@ class CottageQuote extends React.Component {
             style={{ width: 500 }}
             id="boat"
             label="Are any boats included in the rental? How many are motorized?"
-            placeholder=""
+            placeholder="出租车中是否包含任何船只？ 有多少是机动的？"
             multiline
             value={this.state.value}
             onChange={this.handleChange("boat")}
@@ -158,7 +158,7 @@ class CottageQuote extends React.Component {
             style={{ width: 500 }}
             id="air"
             label="Is the cottage rented through Airbnb?"
-            placeholder=""
+            placeholder="这个小屋是通过空运b＆b租来的吗？"
             value={this.state.value}
             onChange={this.handleChange("air")}
             className={classes.textField}
@@ -168,7 +168,7 @@ class CottageQuote extends React.Component {
             style={{ width: 500 }}
             id="water"
             label="Is there are a waterfront?"
-            placeholder=""
+            placeholder="有海滨吗？"
             value={this.state.value}
             onChange={this.handleChange("water")}
             className={classes.textField}
