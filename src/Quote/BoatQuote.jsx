@@ -9,12 +9,12 @@ const styles = theme => ({
   container: {
     display: "flex",
     flexWrap: "wrap",
-    maxWidth: "700px",
+    maxWidth: "80vw",
     margin: "40px auto 40px auto"
   },
   textField: {
-    marginLeft: theme.spacing.unit,
-    marginRight: theme.spacing.unit,
+    marginLeft: "15px",
+    marginRight: "15px",
     width: 200
   }
 });
@@ -110,8 +110,8 @@ class BoatQuote extends React.Component {
               this.state.speed
             }
           />
-          <h5>Please include a copy of the purchase contract in the email</h5>
-        </div>  
+        </div>
+        <h5>*Please include a copy of the purchase contract in the email</h5>
       </form>
     );
   }

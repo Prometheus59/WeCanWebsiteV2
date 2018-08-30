@@ -9,12 +9,12 @@ const styles = theme => ({
   container: {
     display: "flex",
     flexWrap: "wrap",
-    maxWidth: "700px",
+    maxWidth: "80vw",
     margin: "40px auto 40px auto"
   },
   textField: {
-    marginLeft: theme.spacing.unit,
-    marginRight: theme.spacing.unit,
+    marginLeft: "15px",
+    marginRight: "15px",
     width: 200
   }
 });
@@ -190,7 +190,7 @@ class CottageQuote extends React.Component {
               "Year: " +
               this.state.year +
               "%0D%0A" +
-              "Structre(s) information: " +
+              "Structure(s) information: " +
               this.state.struct +
               "%0D%0A" +
               "Is there a basement: " +

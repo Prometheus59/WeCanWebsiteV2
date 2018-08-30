@@ -9,12 +9,12 @@ const styles = theme => ({
   container: {
     display: "flex",
     flexWrap: "wrap",
-    maxWidth: "700px",
+    maxWidth: "80vw",
     margin: "40px auto 40px auto"
   },
   textField: {
-    marginLeft: theme.spacing.unit,
-    marginRight: theme.spacing.unit,
+    marginLeft: "15px",
+    marginRight: "15px",
     width: 200
   }
 });
@@ -138,7 +138,7 @@ class AutoQuote extends React.Component {
               "Accident Info: " +
               this.state.accident +
               "%0D%0A" +
-              "Commute Distance (one way)" +
+              "Commute Distance (one way): " +
               this.state.cdist
             }
           />
