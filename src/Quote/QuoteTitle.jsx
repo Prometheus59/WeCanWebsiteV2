@@ -1,6 +1,7 @@
 import React from "react";
 import Button from "@material-ui/core/Button";
 import { withStyles } from "@material-ui/core/styles";
+import { Link } from "react-router-dom";
 
 const styles = theme => ({
   button: {
@@ -20,8 +21,10 @@ function QuoteTitle(props) {
       variant="contained"
       color="primary"
       className={classes.button}
+      component={Link}
+      to={props.link}
     >
-      <a href={props.link}>{props.title}</a>
+      {props.title}
     </Button>
   );
 }
