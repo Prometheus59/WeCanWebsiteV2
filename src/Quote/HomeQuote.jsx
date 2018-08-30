@@ -176,7 +176,7 @@ class HomeQuote extends React.Component {
           />
 
           <QuoteSnackbar
-            subject="Auto Quote Request"
+            subject="Home Quote Request"
             body={
               "Name: " +
               this.state.name +

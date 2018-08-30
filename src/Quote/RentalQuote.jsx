@@ -182,7 +182,7 @@ class RentalQuote extends React.Component {
           />
 
           <QuoteSnackbar
-            subject="Auto Quote Request"
+            subject="Rental Quote Request"
             body={
               "Rental house owner's name, date of birth, phone#: " +
               this.state.name +
