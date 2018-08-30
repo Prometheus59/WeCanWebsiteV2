@@ -152,7 +152,7 @@ class VacantQuote extends React.Component {
           <TextField
             style={{ width: 500 }}
             id="ins"
-            label="Have you ever bought a home insurance?"
+            label="Have you ever bought home insurance?"
             placeholder="以前是否买过房屋保险"
             value={this.state.value}
             onChange={this.handleChange("ins")}
@@ -201,7 +201,7 @@ class VacantQuote extends React.Component {
               this.state.ins +
               "%0D%0A" +
               "Has client had any insurance claims before: " +
-              this.state.claim +
+              this.state.claim
             }
           />
         </div>
