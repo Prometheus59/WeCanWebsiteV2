@@ -37,11 +37,6 @@ class TextFields extends React.Component {
   };
 
   handleSubmit(event) {
-    /*  event.preventDefault();
-    window.setTimeout(function () {
-      document.location.reload();
-  }, 3000);
-    //This will also open the email client */
   }
 
   render() {
@@ -114,7 +109,7 @@ class TextFields extends React.Component {
   }
 }
 
-/* Ensure that an object is passes as props */
+/* Ensure that an object is passed as props */
 TextFields.propTypes = {
   classes: PropTypes.object.isRequired
 };

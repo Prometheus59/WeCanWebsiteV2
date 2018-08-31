@@ -38,10 +38,10 @@ function SimpleMediaCard(props) {
           <Typography component="p">{props.message}</Typography>
         </CardContent>
         <CardActions>
-          <Button size="small" color="primary" component={HashLink} smooth to="/contact#top">
+          <Button size="small" color="primary" component={HashLink} smooth to={props.qlink}>
               Get a Quote
           </Button>
-          <Button size="small" color="primary" component={HashLink} smooth to={props.link}>
+          <Button size="small" color="primary" component={HashLink} smooth to={props.slink}>
            {/* <HashLink smooth to={props.link}> */} 
               Learn More
           </Button>
