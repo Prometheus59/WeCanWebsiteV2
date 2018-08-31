@@ -2,9 +2,9 @@ import React from "react";
 
 export default class BizInfo extends React.Component {
   render() {
-    var x = "We";
-    var y = "Can";
-    var z = "Temp";
+    var x = "ma";
+    var y = "tt";
+    var z = "z";
     var at = "@";
     var a = "sound";
     var b = "insurance";
