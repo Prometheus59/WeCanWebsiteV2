@@ -36,8 +36,7 @@ class TextFields extends React.Component {
     });
   };
 
-  handleSubmit(event) {
-  }
+  handleSubmit(event) {}
 
   render() {
     const { classes } = this.props;
@@ -71,7 +70,6 @@ class TextFields extends React.Component {
         </div>
         {/* Policy Number */}
         <div className="section2">
-          
           <TextField
             id="policy-number"
             label="Policy Number"
@@ -81,7 +79,6 @@ class TextFields extends React.Component {
             value={this.state.value}
             onChange={this.handleChange("policyNumber")}
           />
-
         </div>
 
         {/* Message / text-body */}
@@ -100,7 +97,7 @@ class TextFields extends React.Component {
           />
           <SimpleSnackbar
             cc={this.state.email}
-            subject={this.state.name + ' - ' + this.state.policyNumber}
+            subject={this.state.name + " - " + this.state.policyNumber}
             body={this.state.message}
           />
         </div>

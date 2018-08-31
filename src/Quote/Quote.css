@@ -1,46 +1,45 @@
 .quoteInput {
-    text-align: center;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
-form .quoteInput{
-    margin-top: 25px;
-    padding: 10px;
-    margin: 10px;
-    height: 90%;
-    overflow: hidden;
-    background-color: whitesmoke;
-  }
-  
+form .quoteInput {
+  margin-top: 25px;
+  padding: 10px;
+  margin: 10px;
+  height: 90%;
+  overflow: hidden;
+  background-color: whitesmoke;
+}
 
 #quoteSubmitBtn {
-    margin-top: 35px;
-    width: 15vw;
-    margin-bottom: 20px;
-    text-align: center;
-    margin-left: 20px;
+  margin-top: 35px;
+  width: 15vw;
+  margin-bottom: 20px;
+  text-align: center;
+  margin-left: 20px;
 }
 
 .quoteOptions a {
-    text-decoration: none;
-    color: white;
+  text-decoration: none;
+  color: white;
 }
 
 .quoteOptions {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 #quoteContainer {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 #instructions {
-    text-align: center;
-    margin-top: 35px;
+  text-align: center;
+  margin-top: 35px;
 }

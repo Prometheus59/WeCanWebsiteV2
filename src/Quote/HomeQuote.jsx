@@ -23,17 +23,17 @@ class HomeQuote extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-        name: "Not specified",
-        address: "Not specified",
-        year: "Not specified",
-        size: "Not specified",
-        basement: "Not specified",
-        close: "Not specified",
-        use: "Not specified",
-        bank: "Not specified",
-        alarm: "Not specified",
-        ins: "Not specified",
-        claim: "Not specified"
+      name: "Not specified",
+      address: "Not specified",
+      year: "Not specified",
+      size: "Not specified",
+      basement: "Not specified",
+      close: "Not specified",
+      use: "Not specified",
+      bank: "Not specified",
+      alarm: "Not specified",
+      ins: "Not specified",
+      claim: "Not specified"
     };
     this.handleChange = this.handleChange.bind(this);
     this.handleSubmit = this.handleSubmit.bind(this);
@@ -121,7 +121,7 @@ class HomeQuote extends React.Component {
             className={classes.textField}
             margin="normal"
           />
-                    <TextField
+          <TextField
             style={{ width: 500 }}
             id="use"
             label="Use of the house (principle residence or renting out?)"
@@ -132,7 +132,7 @@ class HomeQuote extends React.Component {
             className={classes.textField}
             margin="normal"
           />
-                    <TextField
+          <TextField
             style={{ width: 500 }}
             id="bank"
             label="Bank name for mortgage"
@@ -142,7 +142,7 @@ class HomeQuote extends React.Component {
             className={classes.textField}
             margin="normal"
           />
-                    <TextField
+          <TextField
             style={{ width: 500 }}
             id="alarm"
             label="Is there monitored alarm system?"
@@ -152,7 +152,7 @@ class HomeQuote extends React.Component {
             className={classes.textField}
             margin="normal"
           />
-                    <TextField
+          <TextField
             style={{ width: 500 }}
             id="ins"
             label="Any prior insurance?"
@@ -163,7 +163,7 @@ class HomeQuote extends React.Component {
             className={classes.textField}
             margin="normal"
           />
-                    <TextField
+          <TextField
             style={{ width: 500 }}
             id="claim"
             label="Any prior insurance claim(s)?"

@@ -10,10 +10,10 @@ const styles = theme => ({
     paddingBottom: 16,
     marginTop: theme.spacing.unit * 3,
     marginBottom: theme.spacing.unit * 3,
-    width: '90vw',
-    maxWidth: '1625px',
-    marginRight: 'auto',
-    marginLeft: 'auto',
+    width: "90vw",
+    maxWidth: "1625px",
+    marginRight: "auto",
+    marginLeft: "auto"
   }),
   title: {
     marginTop: 20,
@@ -46,9 +46,7 @@ function ServiceTemplate(props) {
         <Typography className={classes.font} align="left" paragraph="true">
           {props.message2}
         </Typography>
-        <Typography className={classes.font}>
-          {props.listIntro}
-        </Typography>
+        <Typography className={classes.font}>{props.listIntro}</Typography>
         <Typography className={classes.font}>
           <ul>{listItems}</ul>
         </Typography>

@@ -4,7 +4,7 @@ import QuoteTitle from "./QuoteTitle";
 export default class Quote extends React.Component {
   render() {
     return (
-      <div id='quoteContainer'>
+      <div id="quoteContainer">
         <div id="instructions">
           <h3>
             Please select one of the insurance options below and answer the

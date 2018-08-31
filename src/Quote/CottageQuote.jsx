@@ -34,7 +34,6 @@ class CottageQuote extends React.Component {
       boat: "Not specified",
       air: "Not specified",
       water: "Not specified"
-
     };
     this.handleChange = this.handleChange.bind(this);
     this.handleSubmit = this.handleSubmit.bind(this);
@@ -122,7 +121,7 @@ class CottageQuote extends React.Component {
             className={classes.textField}
             margin="normal"
           />
-                    <TextField
+          <TextField
             style={{ width: 500 }}
             id="size"
             label="How many stories is the cottage?"
@@ -132,7 +131,7 @@ class CottageQuote extends React.Component {
             className={classes.textField}
             margin="normal"
           />
-                    <TextField
+          <TextField
             style={{ width: 500 }}
             id="winter"
             label="Is each detached structure winterized?"
@@ -143,7 +142,7 @@ class CottageQuote extends React.Component {
             className={classes.textField}
             margin="normal"
           />
-                    <TextField
+          <TextField
             style={{ width: 500 }}
             id="boat"
             label="Are any boats included in the rental? How many are motorized?"
@@ -154,7 +153,7 @@ class CottageQuote extends React.Component {
             className={classes.textField}
             margin="normal"
           />
-                    <TextField
+          <TextField
             style={{ width: 500 }}
             id="air"
             label="Is the cottage rented through Airbnb?"
@@ -164,7 +163,7 @@ class CottageQuote extends React.Component {
             className={classes.textField}
             margin="normal"
           />
-                    <TextField
+          <TextField
             style={{ width: 500 }}
             id="water"
             label="Is there are a waterfront?"
@@ -195,7 +194,7 @@ class CottageQuote extends React.Component {
               "%0D%0A" +
               "Is there a basement: " +
               this.state.basement +
-              "%0D%0A" + 
+              "%0D%0A" +
               "Cottage Size (stories): " +
               this.state.size +
               "%0D%0A" +
