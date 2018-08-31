@@ -189,7 +189,7 @@ class VacantQuote extends React.Component {
               this.state.vacancy +
               "%0D%0A" +
               "Does client want to decorate (Budget/time)" +
-              this.state.decorate + 
+              this.state.decorate +
               "%0D%0A" +
               "Name of loan bank: " +
               this.state.bank +

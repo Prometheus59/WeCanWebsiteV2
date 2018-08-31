@@ -65,7 +65,7 @@ class TabMenu extends React.Component {
             >
               <Tab label="About" component={Link} to="/about" />
               <Tab label="Services" component={Link} to="/services" />
-             {/* <Tab label="Quote" component={Link} to="/quote" /> */}
+              {/* <Tab label="Quote" component={Link} to="/quote" /> */}
               <Tab label="Resources" component={Link} to="/resources" />
               <Tab label="Contact" component={Link} to="/contact" />
             </Tabs>
