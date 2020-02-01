@@ -12,7 +12,7 @@
 #### Resources
 ![resources](https://github.com/Prometheus59/WeCanWebsiteV2/blob/master/resources_page.png)
 #### Contact
-![contact](https://github.com/Prometheus59/WeCanWebsiteV2/blob/master/contact.png)
+![contact](https://github.com/Prometheus59/WeCanWebsiteV2/blob/master/contact_page.png)
 
 
 ###   URL
