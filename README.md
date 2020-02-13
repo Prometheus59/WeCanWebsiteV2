@@ -1,6 +1,10 @@
 ## WeCan Insurance Website
    WeCan Insurance is a branch of [Sound Insurance Inc.](http://www.soundinsurance.ca/ "Sound Insurance Website").
 
+### Demo
+[Live demo of website](https://sleepy-einstein-da4cc0.netlify.com/)
+
+____
 ### Pictures
 
 #### Homescreen
