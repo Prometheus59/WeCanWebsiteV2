@@ -2,7 +2,7 @@
    WeCan Insurance is a branch of [Sound Insurance Inc.](http://www.soundinsurance.ca/ "Sound Insurance Website").
 
 ### Demo
-[Live demo of website](https://sleepy-einstein-da4cc0.netlify.com/)
+[Live demo of website](https://wecan-insurance.netlify.app/)
 
 ____
 ### Pictures
@@ -20,7 +20,7 @@ ____
 
 
 ###   URL
-www.wecanins.ca
+https://wecan-insurance.netlify.app/
 
 ### Author
 [Ryan Karumanchery](mailto:ryankarumanchery@gmail.com)
